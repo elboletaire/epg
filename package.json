@@ -18,7 +18,8 @@
     "test:win32": "SET \"TZ=Pacific/Nauru\" && npx jest --runInBand",
     "test:default": "TZ=Pacific/Nauru npx jest --runInBand",
     "postinstall": "skip-postinstall || npm run api:load",
-    "prepare": "husky"
+    "prepare": "husky",
+    "channels:local": "npx tsx scripts/commands/epg/grab.ts --channels=local.channels.xml --output=local.guide.xml --maxConnections=4"
   },
   "private": true,
   "author": "Arhey",

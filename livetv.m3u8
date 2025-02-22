@@ -11,3 +11,21 @@ https://directes-tv-cat.3catdirectes.cat/live-content/c33-super3-hls/master.m3u8
 #EXTINF:0,TV3
 #EXTVLCOPT:network-caching=1000
 https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8
+#EXTINF:0,La 1
+#EXTVLCOPT:network-caching=1000
+https://ztnr.rtve.es/ztnr/1688877.m3u8
+#EXTINF:0,La 2
+#EXTVLCOPT:network-caching=1000
+https://ztnr.rtve.es/ztnr/1688885.m3u8
+#EXTINF:0,24 horas
+#EXTVLCOPT:network-caching=1000
+https://ztnr.rtve.es/ztnr/1694255.m3u8
+#EXTINF:0,NHK World Japan
+#EXTVLCOPT:network-caching=1000
+https://tvup-fti-nhk.akamaized.net/00489ab02a9d71cc/wSAKzjrGiKX3RPFr/0d7733Vbd99f0bd8.m3u8
+#EXTINF:0,Al Jazeera
+#EXTVLCOPT:network-caching=1000
+https://live-hls-apps-aje.getaj.net/AJE/index.m3u8
+#EXTINF:0,CNN International
+#EXTVLCOPT:network-caching=1000
+https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8
