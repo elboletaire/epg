@@ -2,7 +2,7 @@
 <channels>
   <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="TV3.es" site_id="43">TV3</channel>
   <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="324.es" site_id="449">3/24</channel>
-  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="33.es" site_id="541">33</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="33.es" site_id="can33">33</channel>
   <channel site="movistarplus.es" lang="es" xmltv_id="SX3.es" site_id="c33">SX3</channel>
   <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="La1.es" site_id="3">La 1</channel>
   <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="La2.es" site_id="4">La 2</channel>
