@@ -23,8 +23,8 @@ jobs:
         run: |
           git remote add upstream https://github.com/iptv-org/epg.git || true
           git fetch upstream
-          git rebase upstream/master
+          git rebase upstream/master || git rebase --abort
 
       - name: Push changes to fork
         run: |
-          git push origin master
+          git push origin master --force
