@@ -23,6 +23,8 @@ jobs:
       - name: superguide
         run: npm run channels:local
       - uses: actions4git/add-commit-push@v1
+        with:
+          commit-message: "auto: daily channels update"
       - name: Publish Release
         uses: ncipollo/release-action@v1
         with:
