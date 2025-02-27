@@ -39,7 +39,7 @@
 <programme start="20250228040000 +0000" stop="20250228043000 +0000" channel="24Horas.es"><title lang="es">Telediario internacional</title><desc lang="es">Informativo que prioriza las noticias internacionales sobre las nacionales. El Canal 24 Horas asume su edición y realización.</desc><category lang="es">Informativo/Internacional</category><icon src="https://programacion-tv.elpais.com/imagenes/programas/468674.jpg"/></programme>
 <programme start="20250228043000 +0000" stop="20250228050000 +0000" channel="24Horas.es"><title lang="es">Emprende</title><desc lang="es">Espacio dirigido y presentado por Juanma Romero, centrado en comentar con los invitados sus apuestas empresariales. Cuenta con expertos de referencia en aspectos esenciales como la creación y desarrollo de una empresa, búsqueda de financiación, internacionalización, comunicación o la búsqueda de socios, entre otros.</desc><credits><director>Juanma Romero</director><presenter>Juanma Romero</presenter></credits><category lang="es">Informativo/Economía</category><icon src="https://programacion-tv.elpais.com/imagenes/programas/1745869.jpg"/></programme>
 <programme start="20250228050000 +0000" stop="20250228065000 +0000" channel="24Horas.es"><title lang="es">Telediario matinal</title><desc lang="es">Informativo que recoge las últimas noticias de actualidad e interés general, de ámbito nacional e internacional. Además se informará de las novedades deportivas y económicas acompañado del pronóstico del tiempo en España y Europa y del estado del mar. Presentan Sirún Demirjián, con Rubén Briones en la información deportiva y Andrés Gómez en la información meteorológica.</desc><credits><presenter>Inma Gómez Lobo</presenter><presenter>Ana Ibáñez</presenter><presenter>Ángel Pons</presenter></credits><category lang="es">Informativo/Informativo</category><episode-num system="xmltv_ns">1.40.0/1</episode-num><episode-num system="onscreen">S02E41</episode-num><icon src="https://programacion-tv.elpais.com/imagenes/programas/2494238.jpg"/></programme>
-<programme start="20250228065000 +0000" stop="20250228113000 +0000" channel="24Horas.es"><title lang="es">La hora de la 1</title><sub-title lang="es">Episodio: 735</sub-title><desc lang="es">Magazine, presentado por Marc Sala y Silvia Intxaurrondo, en el que se abordarán contenidos variados, que van desde las entrevistas y debates políticos a la crónica social pasando por bloques de economía y consumo, sucesos y cultura.</desc><category lang="es">Entretenimiento/Magazine</category><episode-num system="xmltv_ns">0.734.0/1</episode-num><episode-num system="onscreen">S01E735</episode-num><icon src="https://programacion-tv.elpais.com/imagenes/programas/19576664.jpg"/></programme>
+<programme start="20250228065000 +0000" stop="20250228113000 +0000" channel="24Horas.es"><title lang="es">La hora de la 1</title><sub-title lang="es">Especial Día de Andalucía</sub-title><desc lang="es">Magazine, presentado por Marc Sala y Silvia Intxaurrondo, en el que se abordarán contenidos variados, que van desde las entrevistas y debates políticos a la crónica social pasando por bloques de economía y consumo, sucesos y cultura.</desc><category lang="es">Entretenimiento/Magazine</category><episode-num system="xmltv_ns">0.734.0/1</episode-num><episode-num system="onscreen">S01E735</episode-num><icon src="https://programacion-tv.elpais.com/imagenes/programas/19576664.jpg"/></programme>
 <programme start="20250228113000 +0000" stop="20250228130000 +0000" channel="24Horas.es"><title lang="es">Diario 24</title><desc lang="es">Espacio matinal para seguir la actualidad minuto a minuto con una mirada detallada a las noticias que marcan cada jornada, desde los puntos donde se generan y con sus imágenes, voces y sonidos en directo.</desc><category lang="es">Informativo/Informativo</category><episode-num system="xmltv_ns">1.42.0/1</episode-num><episode-num system="onscreen">S02E43</episode-num><icon src="https://programacion-tv.elpais.com/imagenes/programas/2166098.jpg"/></programme>
 <programme start="20250228130000 +0000" stop="20250228140000 +0000" channel="24Horas.es"><title lang="es">Noticias 24h</title><desc lang="es">Información contínua 24 horas nacional e internacional. Presentado por Alex Barreiro, Jerónimo Fernández, Marta Ventura, Beatriz Pérez y Mercedes Martel.</desc><credits><presenter>Beatriz Pérez</presenter><presenter>Moisés Rodríguez</presenter><presenter>Mercedes Martel</presenter><presenter>Marta Ventura</presenter></credits><category lang="es">Informativo/Informativo</category><icon src="https://programacion-tv.elpais.com/imagenes/programas/461243.jpg"/></programme>
 <programme start="20250228140000 +0000" stop="20250228144100 +0000" channel="24Horas.es"><title lang="es">Telediario 1</title><desc lang="es">Primera edición del Telediario de TVE, uno de los informativos más antiguos de la televisión, para desgranar la actualidad nacional e internacional, con la colaboración de los corresponsales en el extranjero, los centros territoriales de las diferentes Comunidades Autónomas y el apoyo del resto de programas de producción propia de TVE.</desc><category lang="es">Informativo/Informativo</category><icon src="https://programacion-tv.elpais.com/imagenes/programas/18464375.jpg"/></programme>
@@ -54,62 +54,62 @@
 <programme start="20250228213000 +0000" stop="20250228220000 +0000" channel="24Horas.es"><title lang="es">Europa</title><sub-title lang="es">Episodio: 591</sub-title><desc lang="es">Programa dedicado a temas Europeos, donde se intenta dar a conocer las ventajas de ser europeo, las noticias y eventos que se originan en el entorno europeo y nos interesan tanto en España como al resto de Europa.</desc><category lang="es">Informativo/Otros</category><episode-num system="xmltv_ns">0.590.0/1</episode-num><episode-num system="onscreen">S01E591</episode-num><icon src="https://programacion-tv.elpais.com/imagenes/programas/19910499.jpg"/></programme>
 <programme start="20250228220000 +0000" stop="20250228223000 +0000" channel="24Horas.es"><title lang="es">Noticias 24h</title><desc lang="es">Información contínua 24 horas nacional e internacional. Presentado por Alex Barreiro, Jerónimo Fernández, Marta Ventura, Beatriz Pérez y Mercedes Martel.</desc><credits><presenter>Beatriz Pérez</presenter><presenter>Moisés Rodríguez</presenter><presenter>Mercedes Martel</presenter><presenter>Marta Ventura</presenter></credits><category lang="es">Informativo/Informativo</category><icon src="https://programacion-tv.elpais.com/imagenes/programas/461243.jpg"/></programme>
 <programme start="20250228223000 +0000" stop="20250228230000 +0000" channel="24Horas.es"><title lang="es">La hora de la 1</title><sub-title lang="es">La Hora Cultural</sub-title><desc lang="es">Magazine, presentado por Marc Sala y Silvia Intxaurrondo, en el que se abordarán contenidos variados, que van desde las entrevistas y debates políticos a la crónica social pasando por bloques de economía y consumo, sucesos y cultura.</desc><category lang="es">Entretenimiento/Magazine</category><episode-num system="xmltv_ns">0.895.0/1</episode-num><episode-num system="onscreen">S01E896</episode-num><icon src="https://programacion-tv.elpais.com/imagenes/programas/19576664.jpg"/></programme>
-<programme start="20250227050000 +0000" channel="33.es"><title lang="es">Videoclips</title><icon src="https://img.3cat.cat/multimedia/jpg/0/2/1576838356420.jpg"/></programme>
-<programme start="20250227050324 +0000" channel="33.es"><title lang="es">Videoclips</title><icon src="https://img.3cat.cat/multimedia/jpg/0/2/1576838356420.jpg"/></programme>
-<programme start="20250227050734 +0000" channel="33.es"><title lang="es">Videoclips</title><icon src="https://img.3cat.cat/multimedia/jpg/0/2/1576838356420.jpg"/></programme>
-<programme start="20250227051055 +0000" channel="33.es"><title lang="es">Càpsules de Ciència</title><icon src="https://img.3cat.cat/multimedia/jpg/2/8/1383742658882.jpg"/></programme>
-<programme start="20250227051441 +0000" channel="33.es"><title lang="es">Xarxa Natura</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1355316216147.jpg"/></programme>
-<programme start="20250227052008 +0000" channel="33.es"><title lang="es">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
-<programme start="20250227055237 +0000" channel="33.es"><title lang="es">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
-<programme start="20250227062526 +0000" channel="33.es"><title lang="es">Quan arribin els marcians</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1704993896547.jpg"/></programme>
-<programme start="20250227070009 +0000" channel="33.es"><title lang="es">Quan arribin els marcians</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1704993896547.jpg"/></programme>
-<programme start="20250227072907 +0000" channel="33.es"><title lang="es">Tot el temps del món</title><icon src="https://img.3cat.cat/multimedia/jpg/9/3/1642507817739.jpg"/></programme>
-<programme start="20250227080928 +0000" channel="33.es"><title lang="es">Tot el temps del món</title><icon src="https://img.3cat.cat/multimedia/jpg/9/3/1642507817739.jpg"/></programme>
-<programme start="20250227084837 +0000" channel="33.es"><title lang="es">Fotografies</title><icon src="https://img.3cat.cat/multimedia/jpg/7/8/1486642447487.jpg"/></programme>
-<programme start="20250227091426 +0000" channel="33.es"><title lang="es">Quèquicom</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1415289086595.jpg"/></programme>
-<programme start="20250227094618 +0000" channel="33.es"><title lang="es">Quèquicom</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1415289086595.jpg"/></programme>
-<programme start="20250227101557 +0000" channel="33.es"><title lang="es">Quèquicom</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1415289086595.jpg"/></programme>
-<programme start="20250227104347 +0000" channel="33.es"><title lang="es">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
-<programme start="20250227111505 +0000" channel="33.es"><title lang="es">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
-<programme start="20250227114603 +0000" channel="33.es"><title lang="es">Estàs igual!</title><icon src="https://img.3cat.cat/multimedia/jpg/6/2/1504185214826.jpg"/></programme>
-<programme start="20250227122954 +0000" channel="33.es"><title lang="es">De bon humor</title><icon src="https://img.3cat.cat/multimedia/jpg/4/0/1665130066504.jpg"/></programme>
-<programme start="20250227131929 +0000" channel="33.es"><title lang="es">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
-<programme start="20250227135608 +0000" channel="33.es"><title lang="es">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
-<programme start="20250227143656 +0000" channel="33.es"><title lang="es">El Foraster</title><icon src="https://img.3cat.cat/multimedia/jpg/1/5/1605004331851.jpg"/></programme>
-<programme start="20250227152524 +0000" channel="33.es"><title lang="es">El convidat</title><icon src="https://img.3cat.cat/multimedia/jpg/8/5/1598536835858.jpg"/></programme>
-<programme start="20250227161548 +0000" channel="33.es"><title lang="es">Talent creatiu</title><icon src="https://img.3cat.cat/multimedia/jpg/5/4/1715266541945.jpg"/></programme>
-<programme start="20250227162928 +0000" channel="33.es"><title lang="es">Talent creatiu</title><icon src="https://img.3cat.cat/multimedia/jpg/5/4/1715266541945.jpg"/></programme>
-<programme start="20250227163441 +0000" channel="33.es"><title lang="es">Quèquicom</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1415289086595.jpg"/></programme>
-<programme start="20250227170241 +0000" channel="33.es"><title lang="es">Quèquicom</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1415289086595.jpg"/></programme>
-<programme start="20250227173056 +0000" channel="33.es"><title lang="es">Quèquicom</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1415289086595.jpg"/></programme>
-<programme start="20250227175704 +0000" channel="33.es"><title lang="es">Il·luminats</title><icon src="https://img.3cat.cat/multimedia/jpg/6/6/1509450008466.jpg"/></programme>
-<programme start="20250227183349 +0000" channel="33.es"><title lang="es">Il·luminats</title><icon src="https://img.3cat.cat/multimedia/jpg/6/6/1509450008466.jpg"/></programme>
-<programme start="20250227191123 +0000" channel="33.es"><title lang="es">Els quaderns de cuina de la Julie</title><icon src="https://img.3cat.cat/multimedia/jpg/3/8/1696359961983.jpg"/></programme>
-<programme start="20250227200338 +0000" channel="33.es"><title lang="es">Els quaderns de cuina de la Julie</title><icon src="https://img.3cat.cat/multimedia/jpg/3/8/1696359961983.jpg"/></programme>
-<programme start="20250227205725 +0000" channel="33.es"><title lang="es">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
-<programme start="20250227211831 +0000" channel="33.es"><title lang="es">Marcians</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1704993896547.jpg"/></programme>
-<programme start="20250227213359 +0000" channel="33.es"><title lang="es">El documental</title><icon src="https://img.3cat.cat/multimedia/jpg/1/3/1415291545231.jpg"/></programme>
-<programme start="20250227224109 +0000" channel="33.es"><title lang="es">Premis Martí Gasull i Roig</title><icon src="https://img.3cat.cat/multimedia/jpg/6/0/1740409821306.jpg"/></programme>
-<programme start="20250227234933 +0000" channel="33.es"><title lang="es">Senyora Isabel</title><icon src="https://img.3cat.cat/multimedia/jpg/7/9/1605877808397.jpg"/></programme>
-<programme start="20250228003540 +0000" channel="33.es"><title lang="es">Senyora Isabel</title><icon src="https://img.3cat.cat/multimedia/jpg/7/9/1605877808397.jpg"/></programme>
-<programme start="20250228011946 +0000" channel="33.es"><title lang="es">Gran Reserva. Còmics</title></programme>
-<programme start="20250228025915 +0000" channel="33.es"><title lang="es">Els quaderns de cuina de la Julie</title><icon src="https://img.3cat.cat/multimedia/jpg/3/8/1696359961983.jpg"/></programme>
-<programme start="20250228035057 +0000" channel="33.es"><title lang="es">GR Terres del sud</title><icon src="https://img.3cat.cat/multimedia/jpg/1/5/1397728924451.jpg"/></programme>
-<programme start="20250228043307 +0000" channel="33.es"><title lang="es">Xarxa Natura</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1355316216147.jpg"/></programme>
-<programme start="20250228043833 +0000" channel="33.es"><title lang="es">Xarxa Natura</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1355316216147.jpg"/></programme>
-<programme start="20250228044405 +0000" channel="33.es"><title lang="es">Xarxa Natura</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1355316216147.jpg"/></programme>
-<programme start="20250228044943 +0000" channel="33.es"><title lang="es">Xarxa Natura</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1355316216147.jpg"/></programme>
-<programme start="20250227050000 +0000" channel="324.es"><title lang="es">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
-<programme start="20250227070000 +0000" channel="324.es"><title lang="es">Els Matins</title><icon src="https://img.3cat.cat/multimedia/jpg/9/0/1662036642109.jpg"/></programme>
-<programme start="20250227093000 +0000" channel="324.es"><title lang="es">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
-<programme start="20250227104500 +0000" channel="324.es"><title lang="es">3/24 en aranés</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1486480583755.jpg"/></programme>
-<programme start="20250227110000 +0000" channel="324.es"><title lang="es">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
-<programme start="20250227133000 +0000" channel="324.es"><title lang="es">Telenotícies migdia</title><icon src="https://img.3cat.cat/multimedia/jpg/7/3/1681978998637.jpg"/></programme>
-<programme start="20250227143500 +0000" channel="324.es"><title lang="es">3/24 en aranés</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1486480583755.jpg"/></programme>
-<programme start="20250227150000 +0000" channel="324.es"><title lang="es">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
-<programme start="20250227200000 +0000" channel="324.es"><title lang="es">Telenotícies vespre</title><icon src="https://img.3cat.cat/multimedia/jpg/7/3/1681978998637.jpg"/></programme>
-<programme start="20250227210500 +0000" channel="324.es"><title lang="es">Més 324</title><icon src="https://img.3cat.cat/multimedia/jpg/4/2/1559745632224.jpg"/></programme>
-<programme start="20250227230000 +0000" channel="324.es"><title lang="es">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
+<programme start="20250227050000 +0000" channel="33.es"><title lang="ca">Videoclips</title><icon src="https://img.3cat.cat/multimedia/jpg/0/2/1576838356420.jpg"/></programme>
+<programme start="20250227050324 +0000" channel="33.es"><title lang="ca">Videoclips</title><icon src="https://img.3cat.cat/multimedia/jpg/0/2/1576838356420.jpg"/></programme>
+<programme start="20250227050734 +0000" channel="33.es"><title lang="ca">Videoclips</title><icon src="https://img.3cat.cat/multimedia/jpg/0/2/1576838356420.jpg"/></programme>
+<programme start="20250227051055 +0000" channel="33.es"><title lang="ca">Càpsules de Ciència</title><icon src="https://img.3cat.cat/multimedia/jpg/2/8/1383742658882.jpg"/></programme>
+<programme start="20250227051441 +0000" channel="33.es"><title lang="ca">Xarxa Natura</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1355316216147.jpg"/></programme>
+<programme start="20250227052008 +0000" channel="33.es"><title lang="ca">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
+<programme start="20250227055237 +0000" channel="33.es"><title lang="ca">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
+<programme start="20250227062526 +0000" channel="33.es"><title lang="ca">Quan arribin els marcians</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1704993896547.jpg"/></programme>
+<programme start="20250227070009 +0000" channel="33.es"><title lang="ca">Quan arribin els marcians</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1704993896547.jpg"/></programme>
+<programme start="20250227072907 +0000" channel="33.es"><title lang="ca">Tot el temps del món</title><icon src="https://img.3cat.cat/multimedia/jpg/9/3/1642507817739.jpg"/></programme>
+<programme start="20250227080928 +0000" channel="33.es"><title lang="ca">Tot el temps del món</title><icon src="https://img.3cat.cat/multimedia/jpg/9/3/1642507817739.jpg"/></programme>
+<programme start="20250227084837 +0000" channel="33.es"><title lang="ca">Fotografies</title><icon src="https://img.3cat.cat/multimedia/jpg/7/8/1486642447487.jpg"/></programme>
+<programme start="20250227091426 +0000" channel="33.es"><title lang="ca">Quèquicom</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1415289086595.jpg"/></programme>
+<programme start="20250227094618 +0000" channel="33.es"><title lang="ca">Quèquicom</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1415289086595.jpg"/></programme>
+<programme start="20250227101557 +0000" channel="33.es"><title lang="ca">Quèquicom</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1415289086595.jpg"/></programme>
+<programme start="20250227104347 +0000" channel="33.es"><title lang="ca">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
+<programme start="20250227111505 +0000" channel="33.es"><title lang="ca">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
+<programme start="20250227114603 +0000" channel="33.es"><title lang="ca">Estàs igual!</title><icon src="https://img.3cat.cat/multimedia/jpg/6/2/1504185214826.jpg"/></programme>
+<programme start="20250227122954 +0000" channel="33.es"><title lang="ca">De bon humor</title><icon src="https://img.3cat.cat/multimedia/jpg/4/0/1665130066504.jpg"/></programme>
+<programme start="20250227131929 +0000" channel="33.es"><title lang="ca">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
+<programme start="20250227135608 +0000" channel="33.es"><title lang="ca">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
+<programme start="20250227143656 +0000" channel="33.es"><title lang="ca">El Foraster</title><icon src="https://img.3cat.cat/multimedia/jpg/1/5/1605004331851.jpg"/></programme>
+<programme start="20250227152524 +0000" channel="33.es"><title lang="ca">El convidat</title><icon src="https://img.3cat.cat/multimedia/jpg/8/5/1598536835858.jpg"/></programme>
+<programme start="20250227161548 +0000" channel="33.es"><title lang="ca">Talent creatiu</title><icon src="https://img.3cat.cat/multimedia/jpg/5/4/1715266541945.jpg"/></programme>
+<programme start="20250227162928 +0000" channel="33.es"><title lang="ca">Talent creatiu</title><icon src="https://img.3cat.cat/multimedia/jpg/5/4/1715266541945.jpg"/></programme>
+<programme start="20250227163441 +0000" channel="33.es"><title lang="ca">Quèquicom</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1415289086595.jpg"/></programme>
+<programme start="20250227170241 +0000" channel="33.es"><title lang="ca">Quèquicom</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1415289086595.jpg"/></programme>
+<programme start="20250227173056 +0000" channel="33.es"><title lang="ca">Quèquicom</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1415289086595.jpg"/></programme>
+<programme start="20250227175704 +0000" channel="33.es"><title lang="ca">Il·luminats</title><icon src="https://img.3cat.cat/multimedia/jpg/6/6/1509450008466.jpg"/></programme>
+<programme start="20250227183349 +0000" channel="33.es"><title lang="ca">Il·luminats</title><icon src="https://img.3cat.cat/multimedia/jpg/6/6/1509450008466.jpg"/></programme>
+<programme start="20250227191123 +0000" channel="33.es"><title lang="ca">Els quaderns de cuina de la Julie</title><icon src="https://img.3cat.cat/multimedia/jpg/3/8/1696359961983.jpg"/></programme>
+<programme start="20250227200338 +0000" channel="33.es"><title lang="ca">Els quaderns de cuina de la Julie</title><icon src="https://img.3cat.cat/multimedia/jpg/3/8/1696359961983.jpg"/></programme>
+<programme start="20250227205725 +0000" channel="33.es"><title lang="ca">El gran dictat</title><icon src="https://img.3cat.cat/multimedia/jpg/1/8/1458815766781.jpg"/></programme>
+<programme start="20250227211831 +0000" channel="33.es"><title lang="ca">Marcians</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1704993896547.jpg"/></programme>
+<programme start="20250227213359 +0000" channel="33.es"><title lang="ca">El documental</title><icon src="https://img.3cat.cat/multimedia/jpg/1/3/1415291545231.jpg"/></programme>
+<programme start="20250227224109 +0000" channel="33.es"><title lang="ca">Premis Martí Gasull i Roig</title><icon src="https://img.3cat.cat/multimedia/jpg/6/0/1740409821306.jpg"/></programme>
+<programme start="20250227234933 +0000" channel="33.es"><title lang="ca">Senyora Isabel</title><icon src="https://img.3cat.cat/multimedia/jpg/7/9/1605877808397.jpg"/></programme>
+<programme start="20250228003540 +0000" channel="33.es"><title lang="ca">Senyora Isabel</title><icon src="https://img.3cat.cat/multimedia/jpg/7/9/1605877808397.jpg"/></programme>
+<programme start="20250228011946 +0000" channel="33.es"><title lang="ca">Gran Reserva. Còmics</title></programme>
+<programme start="20250228025915 +0000" channel="33.es"><title lang="ca">Els quaderns de cuina de la Julie</title><icon src="https://img.3cat.cat/multimedia/jpg/3/8/1696359961983.jpg"/></programme>
+<programme start="20250228035057 +0000" channel="33.es"><title lang="ca">GR Terres del sud</title><icon src="https://img.3cat.cat/multimedia/jpg/1/5/1397728924451.jpg"/></programme>
+<programme start="20250228043307 +0000" channel="33.es"><title lang="ca">Xarxa Natura</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1355316216147.jpg"/></programme>
+<programme start="20250228043833 +0000" channel="33.es"><title lang="ca">Xarxa Natura</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1355316216147.jpg"/></programme>
+<programme start="20250228044405 +0000" channel="33.es"><title lang="ca">Xarxa Natura</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1355316216147.jpg"/></programme>
+<programme start="20250228044943 +0000" channel="33.es"><title lang="ca">Xarxa Natura</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1355316216147.jpg"/></programme>
+<programme start="20250227050000 +0000" channel="324.es"><title lang="ca">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
+<programme start="20250227070000 +0000" channel="324.es"><title lang="ca">Els Matins</title><icon src="https://img.3cat.cat/multimedia/jpg/9/0/1662036642109.jpg"/></programme>
+<programme start="20250227093000 +0000" channel="324.es"><title lang="ca">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
+<programme start="20250227104500 +0000" channel="324.es"><title lang="ca">3/24 en aranés</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1486480583755.jpg"/></programme>
+<programme start="20250227110000 +0000" channel="324.es"><title lang="ca">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
+<programme start="20250227133000 +0000" channel="324.es"><title lang="ca">Telenotícies migdia</title><icon src="https://img.3cat.cat/multimedia/jpg/7/3/1681978998637.jpg"/></programme>
+<programme start="20250227143500 +0000" channel="324.es"><title lang="ca">3/24 en aranés</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1486480583755.jpg"/></programme>
+<programme start="20250227150000 +0000" channel="324.es"><title lang="ca">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
+<programme start="20250227200000 +0000" channel="324.es"><title lang="ca">Telenotícies vespre</title><icon src="https://img.3cat.cat/multimedia/jpg/7/3/1681978998637.jpg"/></programme>
+<programme start="20250227210500 +0000" channel="324.es"><title lang="ca">Més 324</title><icon src="https://img.3cat.cat/multimedia/jpg/4/2/1559745632224.jpg"/></programme>
+<programme start="20250227230000 +0000" channel="324.es"><title lang="ca">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
 <programme start="20250227040000 +0000" stop="20250227043000 +0000" channel="AlJazeeraEnglish.qa"><title lang="en">News Live</title><desc lang="en">Up-to-date news and analysis from around the world.</desc><category lang="en">news</category><icon src="https://cdn.images.simply.tv/2585466539129382659?aspect_ratio=16:9"/></programme>
 <programme start="20250227043000 +0000" stop="20250227050000 +0000" channel="AlJazeeraEnglish.qa"><title lang="en">All Hail The Planet</title><desc lang="en">Hazards are natural. Disasters are man-made.</desc><category lang="en">other</category><icon src="https://cdn.images.simply.tv/3688667783336412111?aspect_ratio=16:9"/></programme>
 <programme start="20250227050000 +0000" stop="20250227053000 +0000" channel="AlJazeeraEnglish.qa"><title lang="en">News Live</title><desc lang="en">Up-to-date news and analysis from around the world.</desc><category lang="en">news</category><icon src="https://cdn.images.simply.tv/2585466539129382659?aspect_ratio=16:9"/></programme>
@@ -559,147 +559,147 @@
 <programme start="20250228233000 +0000" stop="20250301000000 +0000" channel="NHKWorldJapan.jp"><title lang="en">Instruments of a Beating Heart</title><category lang="en">Doc. Musique</category><icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2F8b292ac2fcf348bca4f8feef464bf446.jpg"/></programme>
 <programme start="20250301000000 +0000" stop="20250301001000 +0000" channel="NHKWorldJapan.jp"><title lang="en">NHK NEWSLINE&lt;NY&gt;</title><desc lang="en">The world of politics, current affairs, business and finance as they unfold and affect Japan, Asia and the world globally. Insightful analysis and news coverage of the stories of most relevance to Japan and the surrounding region reported from a Japanese perspective and relevance. Archive materials and live reporting provide a full picture of Japan and its place and significance in the world.</desc><category lang="en">Information</category><icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Feb1324c1ae984510aa5d0a96ba73aace.jpg"/></programme>
 <programme start="20250301000000 +0000" stop="20250301001000 +0000" channel="NHKWorldJapan.jp"><title lang="en">NHK NEWSLINE&lt;NY&gt;</title><desc lang="en">The world of politics, current affairs, business and finance as they unfold and affect Japan, Asia and the world globally. Insightful analysis and news coverage of the stories of most relevance to Japan and the surrounding region reported from a Japanese perspective and relevance. Archive materials and live reporting provide a full picture of Japan and its place and significance in the world.</desc><category lang="en">Information</category><icon src="https://proxymedia.woopic.com/api/v1/images/1870%2Fepg%2Feb1324c1ae984510aa5d0a96ba73aace.jpg"/></programme>
-<programme start="20250227050000 +0000" channel="SX3.es"><title lang="es">Agent Binky: Mascotes de l&apos;univers</title><icon src="https://img.3cat.cat/multimedia/jpg/5/7/1684928938175.jpg"/></programme>
-<programme start="20250227051048 +0000" channel="SX3.es"><title lang="es">Agent Binky: Mascotes de l&apos;univers</title><icon src="https://img.3cat.cat/multimedia/jpg/5/7/1684928938175.jpg"/></programme>
-<programme start="20250227052521 +0000" channel="SX3.es"><title lang="es">Les Tres Bessones</title><icon src="https://img.3cat.cat/multimedia/jpg/3/6/1616458663663.jpg"/></programme>
-<programme start="20250227055058 +0000" channel="SX3.es"><title lang="es">Vicky, el viking</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1481717505673.jpg"/></programme>
-<programme start="20250227060246 +0000" channel="SX3.es"><title lang="es">Vicky, el viking</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1481717505673.jpg"/></programme>
-<programme start="20250227061445 +0000" channel="SX3.es"><title lang="es">Els germans Kratt</title><icon src="https://img.3cat.cat/multimedia/png/3/3/1616272194433.png"/></programme>
-<programme start="20250227063607 +0000" channel="SX3.es"><title lang="es">El poble encantat de Pinotxo</title><icon src="https://img.3cat.cat/multimedia/jpg/2/1/1711371975312.jpg"/></programme>
-<programme start="20250227065136 +0000" channel="SX3.es"><title lang="es">Leo da Vinci</title><icon src="https://img.3cat.cat/multimedia/jpg/0/5/1718805522950.jpg"/></programme>
-<programme start="20250227070454 +0000" channel="SX3.es"><title lang="es">La Patrulla Peluda</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1730807207644.jpg"/></programme>
-<programme start="20250227071635 +0000" channel="SX3.es"><title lang="es">Betapodcast</title><icon src="https://img.3cat.cat/multimedia/jpg/8/2/1727270662128.jpg"/></programme>
-<programme start="20250227072845 +0000" channel="SX3.es"><title lang="es">Titó</title><icon src="https://img.3cat.cat/multimedia/jpg/1/5/1666849719051.jpg"/></programme>
-<programme start="20250227074031 +0000" channel="SX3.es"><title lang="es">El Mic i els seus amics</title><icon src="https://img.3cat.cat/multimedia/jpg/9/8/1662355709689.jpg"/></programme>
-<programme start="20250227075110 +0000" channel="SX3.es"><title lang="es">Pop, la ciutat de paper</title><icon src="https://img.3cat.cat/multimedia/jpg/6/4/1723722830346.jpg"/></programme>
-<programme start="20250227080210 +0000" channel="SX3.es"><title lang="es">LooLoo Kids (compilacions)</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1718275158444.jpg"/></programme>
-<programme start="20250227081327 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250227081819 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250227082248 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250227082718 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250227083148 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250227083618 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250227084048 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250227084538 +0000" channel="SX3.es"><title lang="es">Masha i l&apos;os</title><icon src="https://img.3cat.cat/multimedia/jpg/6/0/1650641851306.jpg"/></programme>
-<programme start="20250227085216 +0000" channel="SX3.es"><title lang="es">Masha i l&apos;os</title><icon src="https://img.3cat.cat/multimedia/jpg/6/0/1650641851306.jpg"/></programme>
-<programme start="20250227085826 +0000" channel="SX3.es"><title lang="es">Masha i l&apos;os</title><icon src="https://img.3cat.cat/multimedia/jpg/6/0/1650641851306.jpg"/></programme>
-<programme start="20250227090607 +0000" channel="SX3.es"><title lang="es">La fàbrica de somnis dels germans constructors</title><icon src="https://img.3cat.cat/multimedia/jpg/9/7/1718269309379.jpg"/></programme>
-<programme start="20250227091641 +0000" channel="SX3.es"><title lang="es">Pirata i Capitano</title><icon src="https://img.3cat.cat/multimedia/jpg/4/7/1658306408074.jpg"/></programme>
-<programme start="20250227092738 +0000" channel="SX3.es"><title lang="es">Pirata i Capitano</title><icon src="https://img.3cat.cat/multimedia/jpg/4/7/1658306408074.jpg"/></programme>
-<programme start="20250227093820 +0000" channel="SX3.es"><title lang="es">L&apos;abella Maia</title><icon src="https://img.3cat.cat/multimedia/jpg/2/2/1640689129822.jpg"/></programme>
-<programme start="20250227095027 +0000" channel="SX3.es"><title lang="es">L&apos;abella Maia</title><icon src="https://img.3cat.cat/multimedia/jpg/2/2/1640689129822.jpg"/></programme>
-<programme start="20250227100207 +0000" channel="SX3.es"><title lang="es">L&apos;abella Maia</title><icon src="https://img.3cat.cat/multimedia/jpg/2/2/1640689129822.jpg"/></programme>
-<programme start="20250227101359 +0000" channel="SX3.es"><title lang="es">Vicky, el viking</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1481717505673.jpg"/></programme>
-<programme start="20250227102547 +0000" channel="SX3.es"><title lang="es">Vicky, el viking</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1481717505673.jpg"/></programme>
-<programme start="20250227103705 +0000" channel="SX3.es"><title lang="es">Vicky, el viking</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1481717505673.jpg"/></programme>
-<programme start="20250227104910 +0000" channel="SX3.es"><title lang="es">La colla de la selva al rescat!</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1679316488085.jpg"/></programme>
-<programme start="20250227110007 +0000" channel="SX3.es"><title lang="es">La colla de la selva al rescat!</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1679316488085.jpg"/></programme>
-<programme start="20250227111038 +0000" channel="SX3.es"><title lang="es">La colla de la selva al rescat!</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1679316488085.jpg"/></programme>
-<programme start="20250227112115 +0000" channel="SX3.es"><title lang="es">Kung Fu Panda: Les potes del destí</title><icon src="https://img.3cat.cat/multimedia/jpg/2/7/1655474361272.jpg"/></programme>
-<programme start="20250227114417 +0000" channel="SX3.es"><title lang="es">Dracs: Els genets de l&apos;illa del Fred</title><icon src="https://img.3cat.cat/multimedia/jpg/1/3/1678451527731.jpg"/></programme>
-<programme start="20250227120619 +0000" channel="SX3.es"><title lang="es">Inazuma Eleven</title><icon src="https://img.3cat.cat/multimedia/jpg/3/0/1666846683303.jpg"/></programme>
-<programme start="20250227122843 +0000" channel="SX3.es"><title lang="es">Artús i els vailets de la Taula Rodona</title><icon src="https://img.3cat.cat/multimedia/jpg/2/0/1678898910102.jpg"/></programme>
-<programme start="20250227123957 +0000" channel="SX3.es"><title lang="es">Artús i els vailets de la Taula Rodona</title><icon src="https://img.3cat.cat/multimedia/jpg/2/0/1678898910102.jpg"/></programme>
-<programme start="20250227125159 +0000" channel="SX3.es"><title lang="es">Els germans Kratt</title><icon src="https://img.3cat.cat/multimedia/png/3/3/1616272194433.png"/></programme>
-<programme start="20250227131251 +0000" channel="SX3.es"><title lang="es">Els germans Kratt</title><icon src="https://img.3cat.cat/multimedia/png/3/3/1616272194433.png"/></programme>
-<programme start="20250227133403 +0000" channel="SX3.es"><title lang="es">Ronja, la filla del bandoler</title></programme>
-<programme start="20250227135903 +0000" channel="SX3.es"><title lang="es">El detectiu Conan</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1631699072895.jpg"/></programme>
-<programme start="20250227142405 +0000" channel="SX3.es"><title lang="es">Els Dalton</title><icon src="https://img.3cat.cat/multimedia/jpg/2/6/1675420016262.jpg"/></programme>
-<programme start="20250227143115 +0000" channel="SX3.es"><title lang="es">Els Dalton</title><icon src="https://img.3cat.cat/multimedia/jpg/2/6/1675420016262.jpg"/></programme>
-<programme start="20250227143742 +0000" channel="SX3.es"><title lang="es">Els Dalton</title><icon src="https://img.3cat.cat/multimedia/jpg/2/6/1675420016262.jpg"/></programme>
-<programme start="20250227144423 +0000" channel="SX3.es"><title lang="es">Els Dalton</title><icon src="https://img.3cat.cat/multimedia/jpg/2/6/1675420016262.jpg"/></programme>
-<programme start="20250227145110 +0000" channel="SX3.es"><title lang="es">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
-<programme start="20250227145749 +0000" channel="SX3.es"><title lang="es">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
-<programme start="20250227150349 +0000" channel="SX3.es"><title lang="es">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
-<programme start="20250227150948 +0000" channel="SX3.es"><title lang="es">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
-<programme start="20250227151547 +0000" channel="SX3.es"><title lang="es">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
-<programme start="20250227152302 +0000" channel="SX3.es"><title lang="es">El Mic i els seus amics</title><icon src="https://img.3cat.cat/multimedia/jpg/9/8/1662355709689.jpg"/></programme>
-<programme start="20250227153338 +0000" channel="SX3.es"><title lang="es">Looloo Kids (cançons)</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1718275158444.jpg"/></programme>
-<programme start="20250227153503 +0000" channel="SX3.es"><title lang="es">Looloo Kids (cançons)</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1718275158444.jpg"/></programme>
-<programme start="20250227153619 +0000" channel="SX3.es"><title lang="es">Masha i l&apos;os</title><icon src="https://img.3cat.cat/multimedia/jpg/6/0/1650641851306.jpg"/></programme>
-<programme start="20250227154343 +0000" channel="SX3.es"><title lang="es">Masha i l&apos;os</title><icon src="https://img.3cat.cat/multimedia/jpg/6/0/1650641851306.jpg"/></programme>
-<programme start="20250227155008 +0000" channel="SX3.es"><title lang="es">Numberblocks</title><icon src="https://img.3cat.cat/multimedia/jpg/5/2/1666849371525.jpg"/></programme>
-<programme start="20250227155459 +0000" channel="SX3.es"><title lang="es">Numberblocks</title><icon src="https://img.3cat.cat/multimedia/jpg/5/2/1666849371525.jpg"/></programme>
-<programme start="20250227160005 +0000" channel="SX3.es"><title lang="es">La fàbrica de somnis dels germans constructors</title><icon src="https://img.3cat.cat/multimedia/jpg/9/7/1718269309379.jpg"/></programme>
-<programme start="20250227161039 +0000" channel="SX3.es"><title lang="es">Pop, la ciutat de paper</title><icon src="https://img.3cat.cat/multimedia/jpg/6/4/1723722830346.jpg"/></programme>
-<programme start="20250227162139 +0000" channel="SX3.es"><title lang="es">El Mic i els seus amics</title><icon src="https://img.3cat.cat/multimedia/jpg/9/8/1662355709689.jpg"/></programme>
-<programme start="20250227163143 +0000" channel="SX3.es"><title lang="es">Titó</title><icon src="https://img.3cat.cat/multimedia/jpg/1/5/1666849719051.jpg"/></programme>
-<programme start="20250227164329 +0000" channel="SX3.es"><title lang="es">LooLoo Kids (compilacions)</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1718275158444.jpg"/></programme>
-<programme start="20250227165515 +0000" channel="SX3.es"><title lang="es">La Patrulla Peluda</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1730807207644.jpg"/></programme>
-<programme start="20250227170627 +0000" channel="SX3.es"><title lang="es">La Patrulla Peluda</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1730807207644.jpg"/></programme>
-<programme start="20250227171734 +0000" channel="SX3.es"><title lang="es">El poble encantat de Pinotxo</title><icon src="https://img.3cat.cat/multimedia/jpg/2/1/1711371975312.jpg"/></programme>
-<programme start="20250227172934 +0000" channel="SX3.es"><title lang="es">Ideafix i els irreductibles</title><icon src="https://img.3cat.cat/multimedia/jpg/2/2/1668091821722.jpg"/></programme>
-<programme start="20250227174057 +0000" channel="SX3.es"><title lang="es">Presto! L&apos;escola de màgia</title><icon src="https://img.3cat.cat/multimedia/jpg/4/0/1666849408604.jpg"/></programme>
-<programme start="20250227175213 +0000" channel="SX3.es"><title lang="es">Les Sisters</title><icon src="https://img.3cat.cat/multimedia/jpg/9/7/1616198306279.jpg"/></programme>
-<programme start="20250227180454 +0000" channel="SX3.es"><title lang="es">El carreró del misteri</title><icon src="https://img.3cat.cat/multimedia/jpg/7/9/1735657215397.jpg"/></programme>
-<programme start="20250227183000 +0000" channel="SX3.es"><title lang="es">InfoK</title><icon src="https://img.3cat.cat/multimedia/jpg/7/9/1614166555497.jpg"/></programme>
-<programme start="20250227184653 +0000" channel="SX3.es"><title lang="es">Escolta el teu cos</title><icon src="https://img.3cat.cat/multimedia/jpg/0/4/1723025902040.jpg"/></programme>
-<programme start="20250227185637 +0000" channel="SX3.es"><title lang="es">Leo da Vinci</title><icon src="https://img.3cat.cat/multimedia/jpg/0/5/1718805522950.jpg"/></programme>
-<programme start="20250227190837 +0000" channel="SX3.es"><title lang="es">Leo da Vinci</title><icon src="https://img.3cat.cat/multimedia/jpg/0/5/1718805522950.jpg"/></programme>
-<programme start="20250227192342 +0000" channel="SX3.es"><title lang="es">Ràndom</title><icon src="https://img.3cat.cat/multimedia/jpg/2/8/1666849526082.jpg"/></programme>
-<programme start="20250227195125 +0000" channel="SX3.es"><title lang="es">El detectiu Conan</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1631699072895.jpg"/></programme>
-<programme start="20250227201500 +0000" channel="SX3.es"><title lang="es">Naruto</title><icon src="https://img.3cat.cat/multimedia/jpg/6/6/1700476557966.jpg"/></programme>
-<programme start="20250227203623 +0000" channel="SX3.es"><title lang="es">Naruto</title><icon src="https://img.3cat.cat/multimedia/jpg/6/6/1700476557966.jpg"/></programme>
-<programme start="20250227205616 +0000" channel="SX3.es"><title lang="es">Expedient Zack</title><icon src="https://img.3cat.cat/multimedia/jpg/9/8/1688727756089.jpg"/></programme>
-<programme start="20250227212051 +0000" channel="SX3.es"><title lang="es">Hoodie</title><icon src="https://img.3cat.cat/multimedia/jpg/3/1/1666846494313.jpg"/></programme>
-<programme start="20250227213254 +0000" channel="SX3.es"><title lang="es">Hoodie</title><icon src="https://img.3cat.cat/multimedia/jpg/3/1/1666846494313.jpg"/></programme>
-<programme start="20250227214353 +0000" channel="SX3.es"><title lang="es">Jenny</title><icon src="https://img.3cat.cat/multimedia/jpg/1/4/1691399701641.jpg"/></programme>
-<programme start="20250227215553 +0000" channel="SX3.es"><title lang="es">Jenny</title><icon src="https://img.3cat.cat/multimedia/jpg/1/4/1691399701641.jpg"/></programme>
-<programme start="20250227220802 +0000" channel="SX3.es"><title lang="es">Theodosia</title></programme>
-<programme start="20250227223231 +0000" channel="SX3.es"><title lang="es">Agència Galàctica</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1663227049673.jpg"/></programme>
-<programme start="20250227224347 +0000" channel="SX3.es"><title lang="es">Agència Galàctica</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1663227049673.jpg"/></programme>
-<programme start="20250227225431 +0000" channel="SX3.es"><title lang="es">Agència Galàctica</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1663227049673.jpg"/></programme>
-<programme start="20250227230508 +0000" channel="SX3.es"><title lang="es">Agència Galàctica</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1663227049673.jpg"/></programme>
-<programme start="20250227231612 +0000" channel="SX3.es"><title lang="es">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
-<programme start="20250227232252 +0000" channel="SX3.es"><title lang="es">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
-<programme start="20250227232852 +0000" channel="SX3.es"><title lang="es">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
-<programme start="20250227233451 +0000" channel="SX3.es"><title lang="es">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
-<programme start="20250227234111 +0000" channel="SX3.es"><title lang="es">Prodigiosa: Les aventures de Ladybug i Gat Noir</title><icon src="https://img.3cat.cat/multimedia/jpg/0/5/1644409540750.jpg"/></programme>
-<programme start="20250228000347 +0000" channel="SX3.es"><title lang="es">Ghostforce</title><icon src="https://img.3cat.cat/multimedia/jpg/1/9/1653758049091.jpg"/></programme>
-<programme start="20250228001528 +0000" channel="SX3.es"><title lang="es">Ghostforce</title><icon src="https://img.3cat.cat/multimedia/jpg/1/9/1653758049091.jpg"/></programme>
-<programme start="20250228002643 +0000" channel="SX3.es"><title lang="es">Robin Hood, el trapella de Sherwood</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1616200675857.jpg"/></programme>
-<programme start="20250228003742 +0000" channel="SX3.es"><title lang="es">Robin Hood, el trapella de Sherwood</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1616200675857.jpg"/></programme>
-<programme start="20250228004842 +0000" channel="SX3.es"><title lang="es">Robin Hood, el trapella de Sherwood</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1616200675857.jpg"/></programme>
-<programme start="20250228010024 +0000" channel="SX3.es"><title lang="es">Trollhunters: Contes d&apos;Arcàdia</title><icon src="https://img.3cat.cat/multimedia/jpg/0/0/1650559094500.jpg"/></programme>
-<programme start="20250228012230 +0000" channel="SX3.es"><title lang="es">Trollhunters: Contes d&apos;Arcàdia</title><icon src="https://img.3cat.cat/multimedia/jpg/0/0/1650559094500.jpg"/></programme>
-<programme start="20250228014426 +0000" channel="SX3.es"><title lang="es">Els 3 de sota: Contes d&apos;Arcàdia</title><icon src="https://img.3cat.cat/multimedia/jpg/6/4/1679292556246.jpg"/></programme>
-<programme start="20250228020657 +0000" channel="SX3.es"><title lang="es">Mags: contes d&apos;Arcàdia</title><icon src="https://img.3cat.cat/multimedia/jpg/1/4/1682058567141.jpg"/></programme>
-<programme start="20250228022925 +0000" channel="SX3.es"><title lang="es">Els meus veïns pirates</title><icon src="https://img.3cat.cat/multimedia/jpg/9/3/1655710270939.jpg"/></programme>
-<programme start="20250228024034 +0000" channel="SX3.es"><title lang="es">Els meus veïns pirates</title><icon src="https://img.3cat.cat/multimedia/jpg/9/3/1655710270939.jpg"/></programme>
-<programme start="20250228025121 +0000" channel="SX3.es"><title lang="es">Els meus veïns pirates</title><icon src="https://img.3cat.cat/multimedia/jpg/9/3/1655710270939.jpg"/></programme>
-<programme start="20250228030227 +0000" channel="SX3.es"><title lang="es">Pfffirates</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1655452827457.jpg"/></programme>
-<programme start="20250228031332 +0000" channel="SX3.es"><title lang="es">Pfffirates</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1655452827457.jpg"/></programme>
-<programme start="20250228032409 +0000" channel="SX3.es"><title lang="es">Dinotren</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1671196704857.jpg"/></programme>
-<programme start="20250228033553 +0000" channel="SX3.es"><title lang="es">Dinotren</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1671196704857.jpg"/></programme>
-<programme start="20250228034640 +0000" channel="SX3.es"><title lang="es">Dinotren</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1671196704857.jpg"/></programme>
-<programme start="20250228035727 +0000" channel="SX3.es"><title lang="es">Dinotren</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1671196704857.jpg"/></programme>
-<programme start="20250228040844 +0000" channel="SX3.es"><title lang="es">La família Teixó-Guineu</title><icon src="https://img.3cat.cat/multimedia/jpg/5/6/1616460970065.jpg"/></programme>
-<programme start="20250228042038 +0000" channel="SX3.es"><title lang="es">La família Teixó-Guineu</title><icon src="https://img.3cat.cat/multimedia/jpg/5/6/1616460970065.jpg"/></programme>
-<programme start="20250228043214 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250228043703 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250228044132 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250228044602 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250228045032 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250228045502 +0000" channel="SX3.es"><title lang="es">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
-<programme start="20250227050000 +0000" channel="TV3.es"><title lang="es">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
-<programme start="20250227070000 +0000" channel="TV3.es"><title lang="es">Els Matins</title><icon src="https://img.3cat.cat/multimedia/jpg/9/0/1662036642109.jpg"/></programme>
-<programme start="20250227092957 +0000" channel="TV3.es"><title lang="es">Tot es mou</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1728303235847.jpg"/></programme>
-<programme start="20250227125448 +0000" channel="TV3.es"><title lang="es">Telenotícies comarques</title><icon src="https://img.3cat.cat/multimedia/jpg/7/3/1681978998637.jpg"/></programme>
-<programme start="20250227133000 +0000" channel="TV3.es"><title lang="es">Telenotícies migdia</title><icon src="https://img.3cat.cat/multimedia/jpg/7/3/1681978998637.jpg"/></programme>
-<programme start="20250227143512 +0000" channel="TV3.es"><title lang="es">Cuines</title><icon src="https://img.3cat.cat/multimedia/jpg/0/9/1698155238490.jpg"/></programme>
-<programme start="20250227145547 +0000" channel="TV3.es"><title lang="es">Cuines</title><icon src="https://img.3cat.cat/multimedia/jpg/0/9/1698155238490.jpg"/></programme>
-<programme start="20250227150255 +0000" channel="TV3.es"><title lang="es">Com si fos ahir</title><icon src="https://img.3cat.cat/multimedia/jpg/4/7/1676977929474.jpg"/></programme>
-<programme start="20250227153943 +0000" channel="TV3.es"><title lang="es">El paradís de les senyores</title><icon src="https://img.3cat.cat/multimedia/jpg/3/3/1715696617833.jpg"/></programme>
-<programme start="20250227162645 +0000" channel="TV3.es"><title lang="es">La Selva</title><icon src="https://img.3cat.cat/multimedia/jpg/4/1/1725541911214.jpg"/></programme>
-<programme start="20250227181758 +0000" channel="TV3.es"><title lang="es">Atrapa&apos;m si pots</title><icon src="https://img.3cat.cat/multimedia/jpg/9/3/1700643646439.jpg"/></programme>
-<programme start="20250227191503 +0000" channel="TV3.es"><title lang="es">Està passant</title><icon src="https://img.3cat.cat/multimedia/png/4/2/1705511308724.png"/></programme>
-<programme start="20250227200000 +0000" channel="TV3.es"><title lang="es">Telenotícies vespre</title><icon src="https://img.3cat.cat/multimedia/jpg/7/3/1681978998637.jpg"/></programme>
-<programme start="20250227210855 +0000" channel="TV3.es"><title lang="es">Polònia</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1665652348244.jpg"/></programme>
-<programme start="20250227214914 +0000" channel="TV3.es"><title lang="es">Això no és una cançó</title><icon src="https://img.3cat.cat/multimedia/jpg/3/0/1736420447703.jpg"/></programme>
-<programme start="20250227224032 +0000" channel="TV3.es"><title lang="es">Al cotxe</title><icon src="https://img.3cat.cat/multimedia/jpg/0/4/1643801500840.jpg"/></programme>
-<programme start="20250227232012 +0000" channel="TV3.es"><title lang="es">Nervi</title><icon src="https://img.3cat.cat/multimedia/jpg/3/3/1713793594933.jpg"/></programme>
-<programme start="20250228001034 +0000" channel="TV3.es"><title lang="es">Més 324</title><icon src="https://img.3cat.cat/multimedia/jpg/4/2/1559745632224.jpg"/></programme>
-<programme start="20250228020654 +0000" channel="TV3.es"><title lang="es">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
-<programme start="20250228030027 +0000" channel="TV3.es"><title lang="es">Rumba a l&apos;estudi</title><icon src="https://img.3cat.cat/multimedia/jpg/6/5/1603805277156.jpg"/></programme>
-<programme start="20250228035931 +0000" channel="TV3.es"><title lang="es">Folc a l&apos;estudi</title><icon src="https://img.3cat.cat/multimedia/jpg/5/3/1603799720335.jpg"/></programme>
+<programme start="20250227050000 +0000" channel="SX3.es"><title lang="ca">Agent Binky: Mascotes de l&apos;univers</title><icon src="https://img.3cat.cat/multimedia/jpg/5/7/1684928938175.jpg"/></programme>
+<programme start="20250227051048 +0000" channel="SX3.es"><title lang="ca">Agent Binky: Mascotes de l&apos;univers</title><icon src="https://img.3cat.cat/multimedia/jpg/5/7/1684928938175.jpg"/></programme>
+<programme start="20250227052521 +0000" channel="SX3.es"><title lang="ca">Les Tres Bessones</title><icon src="https://img.3cat.cat/multimedia/jpg/3/6/1616458663663.jpg"/></programme>
+<programme start="20250227055058 +0000" channel="SX3.es"><title lang="ca">Vicky, el viking</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1481717505673.jpg"/></programme>
+<programme start="20250227060246 +0000" channel="SX3.es"><title lang="ca">Vicky, el viking</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1481717505673.jpg"/></programme>
+<programme start="20250227061445 +0000" channel="SX3.es"><title lang="ca">Els germans Kratt</title><icon src="https://img.3cat.cat/multimedia/png/3/3/1616272194433.png"/></programme>
+<programme start="20250227063607 +0000" channel="SX3.es"><title lang="ca">El poble encantat de Pinotxo</title><icon src="https://img.3cat.cat/multimedia/jpg/2/1/1711371975312.jpg"/></programme>
+<programme start="20250227065136 +0000" channel="SX3.es"><title lang="ca">Leo da Vinci</title><icon src="https://img.3cat.cat/multimedia/jpg/0/5/1718805522950.jpg"/></programme>
+<programme start="20250227070454 +0000" channel="SX3.es"><title lang="ca">La Patrulla Peluda</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1730807207644.jpg"/></programme>
+<programme start="20250227071635 +0000" channel="SX3.es"><title lang="ca">Betapodcast</title><icon src="https://img.3cat.cat/multimedia/jpg/8/2/1727270662128.jpg"/></programme>
+<programme start="20250227072845 +0000" channel="SX3.es"><title lang="ca">Titó</title><icon src="https://img.3cat.cat/multimedia/jpg/1/5/1666849719051.jpg"/></programme>
+<programme start="20250227074031 +0000" channel="SX3.es"><title lang="ca">El Mic i els seus amics</title><icon src="https://img.3cat.cat/multimedia/jpg/9/8/1662355709689.jpg"/></programme>
+<programme start="20250227075110 +0000" channel="SX3.es"><title lang="ca">Pop, la ciutat de paper</title><icon src="https://img.3cat.cat/multimedia/jpg/6/4/1723722830346.jpg"/></programme>
+<programme start="20250227080210 +0000" channel="SX3.es"><title lang="ca">LooLoo Kids (compilacions)</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1718275158444.jpg"/></programme>
+<programme start="20250227081327 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250227081819 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250227082248 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250227082718 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250227083148 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250227083618 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250227084048 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250227084538 +0000" channel="SX3.es"><title lang="ca">Masha i l&apos;os</title><icon src="https://img.3cat.cat/multimedia/jpg/6/0/1650641851306.jpg"/></programme>
+<programme start="20250227085216 +0000" channel="SX3.es"><title lang="ca">Masha i l&apos;os</title><icon src="https://img.3cat.cat/multimedia/jpg/6/0/1650641851306.jpg"/></programme>
+<programme start="20250227085826 +0000" channel="SX3.es"><title lang="ca">Masha i l&apos;os</title><icon src="https://img.3cat.cat/multimedia/jpg/6/0/1650641851306.jpg"/></programme>
+<programme start="20250227090607 +0000" channel="SX3.es"><title lang="ca">La fàbrica de somnis dels germans constructors</title><icon src="https://img.3cat.cat/multimedia/jpg/9/7/1718269309379.jpg"/></programme>
+<programme start="20250227091641 +0000" channel="SX3.es"><title lang="ca">Pirata i Capitano</title><icon src="https://img.3cat.cat/multimedia/jpg/4/7/1658306408074.jpg"/></programme>
+<programme start="20250227092738 +0000" channel="SX3.es"><title lang="ca">Pirata i Capitano</title><icon src="https://img.3cat.cat/multimedia/jpg/4/7/1658306408074.jpg"/></programme>
+<programme start="20250227093820 +0000" channel="SX3.es"><title lang="ca">L&apos;abella Maia</title><icon src="https://img.3cat.cat/multimedia/jpg/2/2/1640689129822.jpg"/></programme>
+<programme start="20250227095027 +0000" channel="SX3.es"><title lang="ca">L&apos;abella Maia</title><icon src="https://img.3cat.cat/multimedia/jpg/2/2/1640689129822.jpg"/></programme>
+<programme start="20250227100207 +0000" channel="SX3.es"><title lang="ca">L&apos;abella Maia</title><icon src="https://img.3cat.cat/multimedia/jpg/2/2/1640689129822.jpg"/></programme>
+<programme start="20250227101359 +0000" channel="SX3.es"><title lang="ca">Vicky, el viking</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1481717505673.jpg"/></programme>
+<programme start="20250227102547 +0000" channel="SX3.es"><title lang="ca">Vicky, el viking</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1481717505673.jpg"/></programme>
+<programme start="20250227103705 +0000" channel="SX3.es"><title lang="ca">Vicky, el viking</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1481717505673.jpg"/></programme>
+<programme start="20250227104910 +0000" channel="SX3.es"><title lang="ca">La colla de la selva al rescat!</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1679316488085.jpg"/></programme>
+<programme start="20250227110007 +0000" channel="SX3.es"><title lang="ca">La colla de la selva al rescat!</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1679316488085.jpg"/></programme>
+<programme start="20250227111038 +0000" channel="SX3.es"><title lang="ca">La colla de la selva al rescat!</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1679316488085.jpg"/></programme>
+<programme start="20250227112115 +0000" channel="SX3.es"><title lang="ca">Kung Fu Panda: Les potes del destí</title><icon src="https://img.3cat.cat/multimedia/jpg/2/7/1655474361272.jpg"/></programme>
+<programme start="20250227114417 +0000" channel="SX3.es"><title lang="ca">Dracs: Els genets de l&apos;illa del Fred</title><icon src="https://img.3cat.cat/multimedia/jpg/1/3/1678451527731.jpg"/></programme>
+<programme start="20250227120619 +0000" channel="SX3.es"><title lang="ca">Inazuma Eleven</title><icon src="https://img.3cat.cat/multimedia/jpg/3/0/1666846683303.jpg"/></programme>
+<programme start="20250227122843 +0000" channel="SX3.es"><title lang="ca">Artús i els vailets de la Taula Rodona</title><icon src="https://img.3cat.cat/multimedia/jpg/2/0/1678898910102.jpg"/></programme>
+<programme start="20250227123957 +0000" channel="SX3.es"><title lang="ca">Artús i els vailets de la Taula Rodona</title><icon src="https://img.3cat.cat/multimedia/jpg/2/0/1678898910102.jpg"/></programme>
+<programme start="20250227125159 +0000" channel="SX3.es"><title lang="ca">Els germans Kratt</title><icon src="https://img.3cat.cat/multimedia/png/3/3/1616272194433.png"/></programme>
+<programme start="20250227131251 +0000" channel="SX3.es"><title lang="ca">Els germans Kratt</title><icon src="https://img.3cat.cat/multimedia/png/3/3/1616272194433.png"/></programme>
+<programme start="20250227133403 +0000" channel="SX3.es"><title lang="ca">Ronja, la filla del bandoler</title></programme>
+<programme start="20250227135903 +0000" channel="SX3.es"><title lang="ca">El detectiu Conan</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1631699072895.jpg"/></programme>
+<programme start="20250227142405 +0000" channel="SX3.es"><title lang="ca">Els Dalton</title><icon src="https://img.3cat.cat/multimedia/jpg/2/6/1675420016262.jpg"/></programme>
+<programme start="20250227143115 +0000" channel="SX3.es"><title lang="ca">Els Dalton</title><icon src="https://img.3cat.cat/multimedia/jpg/2/6/1675420016262.jpg"/></programme>
+<programme start="20250227143742 +0000" channel="SX3.es"><title lang="ca">Els Dalton</title><icon src="https://img.3cat.cat/multimedia/jpg/2/6/1675420016262.jpg"/></programme>
+<programme start="20250227144423 +0000" channel="SX3.es"><title lang="ca">Els Dalton</title><icon src="https://img.3cat.cat/multimedia/jpg/2/6/1675420016262.jpg"/></programme>
+<programme start="20250227145110 +0000" channel="SX3.es"><title lang="ca">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
+<programme start="20250227145749 +0000" channel="SX3.es"><title lang="ca">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
+<programme start="20250227150349 +0000" channel="SX3.es"><title lang="ca">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
+<programme start="20250227150948 +0000" channel="SX3.es"><title lang="ca">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
+<programme start="20250227151547 +0000" channel="SX3.es"><title lang="ca">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
+<programme start="20250227152302 +0000" channel="SX3.es"><title lang="ca">El Mic i els seus amics</title><icon src="https://img.3cat.cat/multimedia/jpg/9/8/1662355709689.jpg"/></programme>
+<programme start="20250227153338 +0000" channel="SX3.es"><title lang="ca">Looloo Kids (cançons)</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1718275158444.jpg"/></programme>
+<programme start="20250227153503 +0000" channel="SX3.es"><title lang="ca">Looloo Kids (cançons)</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1718275158444.jpg"/></programme>
+<programme start="20250227153619 +0000" channel="SX3.es"><title lang="ca">Masha i l&apos;os</title><icon src="https://img.3cat.cat/multimedia/jpg/6/0/1650641851306.jpg"/></programme>
+<programme start="20250227154343 +0000" channel="SX3.es"><title lang="ca">Masha i l&apos;os</title><icon src="https://img.3cat.cat/multimedia/jpg/6/0/1650641851306.jpg"/></programme>
+<programme start="20250227155008 +0000" channel="SX3.es"><title lang="ca">Numberblocks</title><icon src="https://img.3cat.cat/multimedia/jpg/5/2/1666849371525.jpg"/></programme>
+<programme start="20250227155459 +0000" channel="SX3.es"><title lang="ca">Numberblocks</title><icon src="https://img.3cat.cat/multimedia/jpg/5/2/1666849371525.jpg"/></programme>
+<programme start="20250227160005 +0000" channel="SX3.es"><title lang="ca">La fàbrica de somnis dels germans constructors</title><icon src="https://img.3cat.cat/multimedia/jpg/9/7/1718269309379.jpg"/></programme>
+<programme start="20250227161039 +0000" channel="SX3.es"><title lang="ca">Pop, la ciutat de paper</title><icon src="https://img.3cat.cat/multimedia/jpg/6/4/1723722830346.jpg"/></programme>
+<programme start="20250227162139 +0000" channel="SX3.es"><title lang="ca">El Mic i els seus amics</title><icon src="https://img.3cat.cat/multimedia/jpg/9/8/1662355709689.jpg"/></programme>
+<programme start="20250227163143 +0000" channel="SX3.es"><title lang="ca">Titó</title><icon src="https://img.3cat.cat/multimedia/jpg/1/5/1666849719051.jpg"/></programme>
+<programme start="20250227164329 +0000" channel="SX3.es"><title lang="ca">LooLoo Kids (compilacions)</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1718275158444.jpg"/></programme>
+<programme start="20250227165515 +0000" channel="SX3.es"><title lang="ca">La Patrulla Peluda</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1730807207644.jpg"/></programme>
+<programme start="20250227170627 +0000" channel="SX3.es"><title lang="ca">La Patrulla Peluda</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1730807207644.jpg"/></programme>
+<programme start="20250227171734 +0000" channel="SX3.es"><title lang="ca">El poble encantat de Pinotxo</title><icon src="https://img.3cat.cat/multimedia/jpg/2/1/1711371975312.jpg"/></programme>
+<programme start="20250227172934 +0000" channel="SX3.es"><title lang="ca">Ideafix i els irreductibles</title><icon src="https://img.3cat.cat/multimedia/jpg/2/2/1668091821722.jpg"/></programme>
+<programme start="20250227174057 +0000" channel="SX3.es"><title lang="ca">Presto! L&apos;escola de màgia</title><icon src="https://img.3cat.cat/multimedia/jpg/4/0/1666849408604.jpg"/></programme>
+<programme start="20250227175213 +0000" channel="SX3.es"><title lang="ca">Les Sisters</title><icon src="https://img.3cat.cat/multimedia/jpg/9/7/1616198306279.jpg"/></programme>
+<programme start="20250227180454 +0000" channel="SX3.es"><title lang="ca">El carreró del misteri</title><icon src="https://img.3cat.cat/multimedia/jpg/7/9/1735657215397.jpg"/></programme>
+<programme start="20250227183000 +0000" channel="SX3.es"><title lang="ca">InfoK</title><icon src="https://img.3cat.cat/multimedia/jpg/7/9/1614166555497.jpg"/></programme>
+<programme start="20250227184653 +0000" channel="SX3.es"><title lang="ca">Escolta el teu cos</title><icon src="https://img.3cat.cat/multimedia/jpg/0/4/1723025902040.jpg"/></programme>
+<programme start="20250227185637 +0000" channel="SX3.es"><title lang="ca">Leo da Vinci</title><icon src="https://img.3cat.cat/multimedia/jpg/0/5/1718805522950.jpg"/></programme>
+<programme start="20250227190837 +0000" channel="SX3.es"><title lang="ca">Leo da Vinci</title><icon src="https://img.3cat.cat/multimedia/jpg/0/5/1718805522950.jpg"/></programme>
+<programme start="20250227192342 +0000" channel="SX3.es"><title lang="ca">Ràndom</title><icon src="https://img.3cat.cat/multimedia/jpg/2/8/1666849526082.jpg"/></programme>
+<programme start="20250227195125 +0000" channel="SX3.es"><title lang="ca">El detectiu Conan</title><icon src="https://img.3cat.cat/multimedia/jpg/5/9/1631699072895.jpg"/></programme>
+<programme start="20250227201500 +0000" channel="SX3.es"><title lang="ca">Naruto</title><icon src="https://img.3cat.cat/multimedia/jpg/6/6/1700476557966.jpg"/></programme>
+<programme start="20250227203623 +0000" channel="SX3.es"><title lang="ca">Naruto</title><icon src="https://img.3cat.cat/multimedia/jpg/6/6/1700476557966.jpg"/></programme>
+<programme start="20250227205616 +0000" channel="SX3.es"><title lang="ca">Expedient Zack</title><icon src="https://img.3cat.cat/multimedia/jpg/9/8/1688727756089.jpg"/></programme>
+<programme start="20250227212051 +0000" channel="SX3.es"><title lang="ca">Hoodie</title><icon src="https://img.3cat.cat/multimedia/jpg/3/1/1666846494313.jpg"/></programme>
+<programme start="20250227213254 +0000" channel="SX3.es"><title lang="ca">Hoodie</title><icon src="https://img.3cat.cat/multimedia/jpg/3/1/1666846494313.jpg"/></programme>
+<programme start="20250227214353 +0000" channel="SX3.es"><title lang="ca">Jenny</title><icon src="https://img.3cat.cat/multimedia/jpg/1/4/1691399701641.jpg"/></programme>
+<programme start="20250227215553 +0000" channel="SX3.es"><title lang="ca">Jenny</title><icon src="https://img.3cat.cat/multimedia/jpg/1/4/1691399701641.jpg"/></programme>
+<programme start="20250227220802 +0000" channel="SX3.es"><title lang="ca">Theodosia</title></programme>
+<programme start="20250227223231 +0000" channel="SX3.es"><title lang="ca">Agència Galàctica</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1663227049673.jpg"/></programme>
+<programme start="20250227224347 +0000" channel="SX3.es"><title lang="ca">Agència Galàctica</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1663227049673.jpg"/></programme>
+<programme start="20250227225431 +0000" channel="SX3.es"><title lang="ca">Agència Galàctica</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1663227049673.jpg"/></programme>
+<programme start="20250227230508 +0000" channel="SX3.es"><title lang="ca">Agència Galàctica</title><icon src="https://img.3cat.cat/multimedia/jpg/3/7/1663227049673.jpg"/></programme>
+<programme start="20250227231612 +0000" channel="SX3.es"><title lang="ca">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
+<programme start="20250227232252 +0000" channel="SX3.es"><title lang="ca">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
+<programme start="20250227232852 +0000" channel="SX3.es"><title lang="ca">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
+<programme start="20250227233451 +0000" channel="SX3.es"><title lang="ca">El xai Shaun</title><icon src="https://img.3cat.cat/multimedia/jpg/5/5/1616201001055.jpg"/></programme>
+<programme start="20250227234111 +0000" channel="SX3.es"><title lang="ca">Prodigiosa: Les aventures de Ladybug i Gat Noir</title><icon src="https://img.3cat.cat/multimedia/jpg/0/5/1644409540750.jpg"/></programme>
+<programme start="20250228000347 +0000" channel="SX3.es"><title lang="ca">Ghostforce</title><icon src="https://img.3cat.cat/multimedia/jpg/1/9/1653758049091.jpg"/></programme>
+<programme start="20250228001528 +0000" channel="SX3.es"><title lang="ca">Ghostforce</title><icon src="https://img.3cat.cat/multimedia/jpg/1/9/1653758049091.jpg"/></programme>
+<programme start="20250228002643 +0000" channel="SX3.es"><title lang="ca">Robin Hood, el trapella de Sherwood</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1616200675857.jpg"/></programme>
+<programme start="20250228003742 +0000" channel="SX3.es"><title lang="ca">Robin Hood, el trapella de Sherwood</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1616200675857.jpg"/></programme>
+<programme start="20250228004842 +0000" channel="SX3.es"><title lang="ca">Robin Hood, el trapella de Sherwood</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1616200675857.jpg"/></programme>
+<programme start="20250228010024 +0000" channel="SX3.es"><title lang="ca">Trollhunters: Contes d&apos;Arcàdia</title><icon src="https://img.3cat.cat/multimedia/jpg/0/0/1650559094500.jpg"/></programme>
+<programme start="20250228012230 +0000" channel="SX3.es"><title lang="ca">Trollhunters: Contes d&apos;Arcàdia</title><icon src="https://img.3cat.cat/multimedia/jpg/0/0/1650559094500.jpg"/></programme>
+<programme start="20250228014426 +0000" channel="SX3.es"><title lang="ca">Els 3 de sota: Contes d&apos;Arcàdia</title><icon src="https://img.3cat.cat/multimedia/jpg/6/4/1679292556246.jpg"/></programme>
+<programme start="20250228020657 +0000" channel="SX3.es"><title lang="ca">Mags: contes d&apos;Arcàdia</title><icon src="https://img.3cat.cat/multimedia/jpg/1/4/1682058567141.jpg"/></programme>
+<programme start="20250228022925 +0000" channel="SX3.es"><title lang="ca">Els meus veïns pirates</title><icon src="https://img.3cat.cat/multimedia/jpg/9/3/1655710270939.jpg"/></programme>
+<programme start="20250228024034 +0000" channel="SX3.es"><title lang="ca">Els meus veïns pirates</title><icon src="https://img.3cat.cat/multimedia/jpg/9/3/1655710270939.jpg"/></programme>
+<programme start="20250228025121 +0000" channel="SX3.es"><title lang="ca">Els meus veïns pirates</title><icon src="https://img.3cat.cat/multimedia/jpg/9/3/1655710270939.jpg"/></programme>
+<programme start="20250228030227 +0000" channel="SX3.es"><title lang="ca">Pfffirates</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1655452827457.jpg"/></programme>
+<programme start="20250228031332 +0000" channel="SX3.es"><title lang="ca">Pfffirates</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1655452827457.jpg"/></programme>
+<programme start="20250228032409 +0000" channel="SX3.es"><title lang="ca">Dinotren</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1671196704857.jpg"/></programme>
+<programme start="20250228033553 +0000" channel="SX3.es"><title lang="ca">Dinotren</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1671196704857.jpg"/></programme>
+<programme start="20250228034640 +0000" channel="SX3.es"><title lang="ca">Dinotren</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1671196704857.jpg"/></programme>
+<programme start="20250228035727 +0000" channel="SX3.es"><title lang="ca">Dinotren</title><icon src="https://img.3cat.cat/multimedia/jpg/7/5/1671196704857.jpg"/></programme>
+<programme start="20250228040844 +0000" channel="SX3.es"><title lang="ca">La família Teixó-Guineu</title><icon src="https://img.3cat.cat/multimedia/jpg/5/6/1616460970065.jpg"/></programme>
+<programme start="20250228042038 +0000" channel="SX3.es"><title lang="ca">La família Teixó-Guineu</title><icon src="https://img.3cat.cat/multimedia/jpg/5/6/1616460970065.jpg"/></programme>
+<programme start="20250228043214 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250228043703 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250228044132 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250228044602 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250228045032 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250228045502 +0000" channel="SX3.es"><title lang="ca">Els mixets</title><icon src="https://img.3cat.cat/multimedia/jpg/5/8/1617715035685.jpg"/></programme>
+<programme start="20250227050000 +0000" channel="TV3.es"><title lang="ca">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
+<programme start="20250227070000 +0000" channel="TV3.es"><title lang="ca">Els Matins</title><icon src="https://img.3cat.cat/multimedia/jpg/9/0/1662036642109.jpg"/></programme>
+<programme start="20250227092957 +0000" channel="TV3.es"><title lang="ca">Tot es mou</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1728303235847.jpg"/></programme>
+<programme start="20250227125448 +0000" channel="TV3.es"><title lang="ca">Telenotícies comarques</title><icon src="https://img.3cat.cat/multimedia/jpg/7/3/1681978998637.jpg"/></programme>
+<programme start="20250227133000 +0000" channel="TV3.es"><title lang="ca">Telenotícies migdia</title><icon src="https://img.3cat.cat/multimedia/jpg/7/3/1681978998637.jpg"/></programme>
+<programme start="20250227143512 +0000" channel="TV3.es"><title lang="ca">Cuines</title><icon src="https://img.3cat.cat/multimedia/jpg/0/9/1698155238490.jpg"/></programme>
+<programme start="20250227145547 +0000" channel="TV3.es"><title lang="ca">Cuines</title><icon src="https://img.3cat.cat/multimedia/jpg/0/9/1698155238490.jpg"/></programme>
+<programme start="20250227150255 +0000" channel="TV3.es"><title lang="ca">Com si fos ahir</title><icon src="https://img.3cat.cat/multimedia/jpg/4/7/1676977929474.jpg"/></programme>
+<programme start="20250227153943 +0000" channel="TV3.es"><title lang="ca">El paradís de les senyores</title><icon src="https://img.3cat.cat/multimedia/jpg/3/3/1715696617833.jpg"/></programme>
+<programme start="20250227162645 +0000" channel="TV3.es"><title lang="ca">La Selva</title><icon src="https://img.3cat.cat/multimedia/jpg/4/1/1725541911214.jpg"/></programme>
+<programme start="20250227181758 +0000" channel="TV3.es"><title lang="ca">Atrapa&apos;m si pots</title><icon src="https://img.3cat.cat/multimedia/jpg/9/3/1700643646439.jpg"/></programme>
+<programme start="20250227191503 +0000" channel="TV3.es"><title lang="ca">Està passant</title><icon src="https://img.3cat.cat/multimedia/png/4/2/1705511308724.png"/></programme>
+<programme start="20250227200000 +0000" channel="TV3.es"><title lang="ca">Telenotícies vespre</title><icon src="https://img.3cat.cat/multimedia/jpg/7/3/1681978998637.jpg"/></programme>
+<programme start="20250227210855 +0000" channel="TV3.es"><title lang="ca">Polònia</title><icon src="https://img.3cat.cat/multimedia/jpg/4/4/1665652348244.jpg"/></programme>
+<programme start="20250227214914 +0000" channel="TV3.es"><title lang="ca">Això no és una cançó</title><icon src="https://img.3cat.cat/multimedia/jpg/3/0/1736420447703.jpg"/></programme>
+<programme start="20250227224032 +0000" channel="TV3.es"><title lang="ca">Al cotxe</title><icon src="https://img.3cat.cat/multimedia/jpg/0/4/1643801500840.jpg"/></programme>
+<programme start="20250227232012 +0000" channel="TV3.es"><title lang="ca">Nervi</title><icon src="https://img.3cat.cat/multimedia/jpg/3/3/1713793594933.jpg"/></programme>
+<programme start="20250228001034 +0000" channel="TV3.es"><title lang="ca">Més 324</title><icon src="https://img.3cat.cat/multimedia/jpg/4/2/1559745632224.jpg"/></programme>
+<programme start="20250228020654 +0000" channel="TV3.es"><title lang="ca">Notícies 3/24</title><icon src="https://img.3cat.cat/multimedia/jpg/7/4/1721124377347.jpg"/></programme>
+<programme start="20250228030027 +0000" channel="TV3.es"><title lang="ca">Rumba a l&apos;estudi</title><icon src="https://img.3cat.cat/multimedia/jpg/6/5/1603805277156.jpg"/></programme>
+<programme start="20250228035931 +0000" channel="TV3.es"><title lang="ca">Folc a l&apos;estudi</title><icon src="https://img.3cat.cat/multimedia/jpg/5/3/1603799720335.jpg"/></programme>
 </tv>

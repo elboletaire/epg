@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="3cat.cat" lang="es" xmltv_id="TV3.es" site_id="tv3">TV3</channel>
-  <channel site="3cat.cat" lang="es" xmltv_id="324.es" site_id="324">3/24</channel>
-  <channel site="3cat.cat" lang="es" xmltv_id="33.es" site_id="c33">33</channel>
-  <channel site="3cat.cat" lang="es" xmltv_id="SX3.es" site_id="sx3">SX3</channel>
+  <channel site="3cat.cat" lang="ca" xmltv_id="TV3.es" site_id="tv3">TV3</channel>
+  <channel site="3cat.cat" lang="ca" xmltv_id="324.es" site_id="324">3/24</channel>
+  <channel site="3cat.cat" lang="ca" xmltv_id="33.es" site_id="c33">33</channel>
+  <channel site="3cat.cat" lang="ca" xmltv_id="SX3.es" site_id="sx3">SX3</channel>
   <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="La1.es" site_id="3">La 1</channel>
   <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="La2.es" site_id="4">La 2</channel>
   <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="24Horas.es" site_id="8">24 horas</channel>
