@@ -16,6 +16,7 @@ const channels = {
 
 module.exports = {
   site: '3cat.cat',
+  days: 2,
   url({ channel, date }) {
     const num = getDateNumber(date)
     return channels[channel.site_id].replace('{day}', num)
@@ -38,6 +39,7 @@ module.exports = {
 
       programs.push({
         title: $(el).find('.informacio-programa strong').text(),
+        description: $(el).find('.informacio-programa p:last-child').text(),
         start,
         stop,
         icon: $(el).find('img').attr('src')
@@ -56,7 +58,7 @@ module.exports = {
 
 function getDateNumber(date) {
   const today = dayjs().startOf('day')
-  const targetDate = dayjs(date).startOf('day')
+  const targetDate = date.startOf('day')
 
   const diffDays = targetDate.diff(today, 'day')
 
