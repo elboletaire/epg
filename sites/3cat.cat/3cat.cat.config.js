@@ -23,10 +23,23 @@ module.exports = {
   parser({ content }) {
     const $ = cheerio.load(content)
     const programs = []
-    $('ul.programes > li').each((i, el) => {
+
+    const entries = $('ul.programes > li')
+    entries.each((i, el) => {
+      const start = dayjs($(el).attr('data-date'), 'DD/MM/YYYY HH:mm:ss')
+      const nextEl = entries[i + 1]
+      let stop
+
+      if (nextEl) {
+        stop = dayjs($(nextEl).attr('data-date'), 'DD/MM/YYYY HH:mm:ss')
+      } else {
+        stop = start.startOf('day').add(6, 'hours')
+      }
+
       programs.push({
         title: $(el).find('.informacio-programa strong').text(),
-        start: dayjs($(el).attr('data-date'), 'DD/MM/YYYY HH:mm:ss'),
+        start,
+        stop,
         icon: $(el).find('img').attr('src')
       })
     })
