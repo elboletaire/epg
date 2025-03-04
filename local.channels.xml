@@ -8,6 +8,9 @@
   <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="La2.es" site_id="4">La 2</channel>
   <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="24Horas.es" site_id="8">24 horas</channel>
   <channel site="chaines-tv.orange.fr" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="830">NHK WORLD - JAPAN</channel>
-  <channel site="tvtv.us" lang="en" xmltv_id="CNNInternationalNorthAmerica.us" site_id="83110">CNN International</channel>
   <channel site="allente.dk" lang="en" xmltv_id="AlJazeeraEnglish.qa" site_id="0344">Al Jazeera English</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="CNNInternationalNorthAmerica.us" site_id="83110">CNN International (USA)</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="MSNBC.us" site_id="16300">MSNBC (USA)</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="FoxNewsChannel.us" site_id="60179">FOX News (USA)</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="BBCNewsHD.uk" site_id="bbc-news-europe/33590">BBC News Europe</channel>
 </channels>
