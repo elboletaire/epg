@@ -2,7 +2,7 @@ name: Update guide
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 6 * * *'
 jobs:
   main:
     runs-on: [self-hosted]
@@ -20,7 +20,7 @@ jobs:
       - name: check *.channels.xml
         run: |
           npm run channels:lint
-      - name: superguide
+      - name: create guide
         run: npm run channels:local
       - uses: actions4git/add-commit-push@v1
         with:
