@@ -14,14 +14,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          cache: 'yarn'
       - name: install dependencies
-        run: npm install
+        run: yarn
       - name: check *.channels.xml
         run: |
-          npm run channels:lint
+          yarn channels:lint
       - name: create guide
-        run: npm run channels:local
+        run: yarn channels:local
       - uses: actions4git/add-commit-push@v1
         with:
           commit-message: "chore: daily channels update"
