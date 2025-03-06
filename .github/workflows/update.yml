@@ -11,6 +11,8 @@ jobs:
         with:
           timezoneLinux: "Europe/Madrid"
       - uses: actions/checkout@v4
+      - name: install yarn
+        run:  npm -g install yarn
       - uses: actions/setup-node@v4
         with:
           node-version: 20
