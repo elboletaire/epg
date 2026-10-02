@@ -35,7 +35,17 @@ jobs:
           yarn channels:lint
       - name: create guide
         run: yarn channels:local
+      # a re-run on the same day regenerates an identical guide, and `git commit` fails with nothing to commit
+      - name: check for changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions4git/add-commit-push@2119cc12fc9e451198b0d1c27fbae6fd1b134135 # v1.0.0
+        if: steps.changes.outputs.changed == 'true'
         env:
           # upstream's husky pre-commit hooks must not run for the automated commit
           HUSKY: 0
