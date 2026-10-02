@@ -1,77 +1,47 @@
-name: update
+name: Update guide
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 6 * * *'
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: update-guide
+  cancel-in-progress: false
 jobs:
   main:
-    runs-on: ubuntu-latest
+    if: github.repository == 'elboletaire/epg'
+    runs-on: [self-hosted]
     steps:
-      - uses: actions/checkout@v4
-      - uses: tibdex/github-app-token@v1.8.2
-        if: ${{ !env.ACT }}
-        id: create-app-token
+      - uses: szenius/set-timezone@1f9716b0f7120e344f0c62bb7b1ee98819aefd42 # v2.0
         with:
-          app_id: ${{ secrets.APP_ID }}
-          private_key: ${{ secrets.APP_PRIVATE_KEY }}
-      - uses: actions/checkout@v4
-        if: ${{ !env.ACT }}
+          timezoneLinux: "Europe/Madrid"
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - name: install yarn
+        run: npm -g install yarn@1.22.22
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
-          token: ${{ steps.create-app-token.outputs.token }}
-      - name: setup git
-        run: |
-          git config user.name "iptv-bot[bot]"
-          git config user.email "84861620+iptv-bot[bot]@users.noreply.github.com"
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: 'npm'
+          node-version: 20
+          cache: 'yarn'
       - name: install dependencies
-        run: npm install
+        run: yarn
       - name: check *.channels.xml
-        run: npm run channels:lint
-      - name: update sites.md
-        run: npm run sites:update
-      - run: git status
-      - name: commit changes to sites.md
-        if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
         run: |
-          FILE=SITES.md
-          CHANGED=$(git diff ${FILE})
-          if [ -n "${CHANGED}" ]; then
-            git add ${FILE}
-            git commit -m "[Bot] Update ${FILE}" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/epg/actions/runs/${{ github.run_id }}) workflow." --no-verify
-            git push
-          fi
-      - name: load workers
-        run: npm run workers:load
-      - name: update guides.md
-        run: npm run guides:update
-      - run: git status
-      - name: commit changes to guides.md
-        if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
-        run: |
-          FILE=GUIDES.md
-          CHANGED=$(git diff ${FILE})
-          if [ -n "${CHANGED}" ]; then
-            git add ${FILE}
-            git commit -m "[Bot] Update ${FILE}" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/epg/actions/runs/${{ github.run_id }}) workflow." --no-verify
-            git push
-          fi
-      - name: generate .api/guides.json
-        run: npm run guides:export
-      - run: git status
-      - name: move .api/guides.json to iptv-org/api
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
+          yarn channels:lint
+      - name: create guide
+        run: yarn channels:local
+      - uses: actions4git/add-commit-push@2119cc12fc9e451198b0d1c27fbae6fd1b134135 # v1.0.0
         with:
-          repository-name: iptv-org/api
-          branch: gh-pages
-          folder: .api
-          token: ${{ steps.create-app-token.outputs.token }}
-          git-config-name: iptv-bot[bot]
-          git-config-email: 84861620+iptv-bot[bot]@users.noreply.github.com
-          commit-message: '[Bot] Deploy to iptv-org/api'
-          clean: false
+          commit-message: "chore: daily channels update"
+      - name: Publish Release
+        uses: ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd # v1.21.0
+        with:
+          artifacts: "*.guide.xml,*.guide.xml.gz"
+          allowUpdates: true
+          generateReleaseNotes: false
+          replacesArtifacts: true
+          removeArtifacts: true
+          prerelease: false
+          draft: false
+          makeLatest: true
+          tag: 1.0.0

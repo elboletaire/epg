@@ -1,0 +1,31 @@
+name: Sync with Upstream
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream and fetch changes
+        run: |
+          git remote add upstream https://github.com/iptv-org/epg.git || true
+          git fetch upstream
+          git rebase upstream/master || git rebase --abort
+
+      - name: Push changes to fork
+        run: |
+          git push origin master --force
