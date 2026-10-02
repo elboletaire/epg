@@ -36,6 +36,9 @@ jobs:
       - name: create guide
         run: yarn channels:local
       - uses: actions4git/add-commit-push@2119cc12fc9e451198b0d1c27fbae6fd1b134135 # v1.0.0
+        env:
+          # upstream's husky pre-commit hooks must not run for the automated commit
+          HUSKY: 0
         with:
           commit-message: "chore: daily channels update"
       - name: Publish Release
