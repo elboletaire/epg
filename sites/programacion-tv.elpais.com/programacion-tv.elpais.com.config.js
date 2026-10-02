@@ -31,7 +31,6 @@ module.exports = {
         sub_title: details.episode_title,
         description: details.episode_description || item.description,
         category: parseCategory(details),
-        // image: parseImage(details),
         icon: parseImage(details),
         director: parseList(details.director),
         actors: parseList(details.actors),

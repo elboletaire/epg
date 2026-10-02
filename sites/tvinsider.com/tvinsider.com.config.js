@@ -1,6 +1,10 @@
 const cheerio = require('cheerio')
 const axios = require('axios')
-const { DateTime } = require('luxon')
+const dayjs = require('dayjs')
+const utc = require('dayjs/plugin/utc')
+const timezone = require('dayjs/plugin/timezone')
+dayjs.extend(utc)
+dayjs.extend(timezone)
 
 module.exports = {
   site: 'tvinsider.com',
@@ -14,18 +18,22 @@ module.exports = {
     items.forEach(item => {
       const prev = programs[programs.length - 1]
       const $item = cheerio.load(item)
+      const episodeInfo = parseEP($item)
       let start = parseStart($item, date)
       if (!start) return
       if (prev) {
         prev.stop = start
       }
-      const stop = start.plus({ minute: 30 })
+      const stop = start.add(30, 'minute')
 
       programs.push({
         title: parseTitle($item),
         description: parseDescription($item),
         category: parseCategory($item),
         date: parseDate($item),
+        ...episodeInfo, 
+        subTitles: parseSubtitle($item),
+        previouslyShown: parsePreviously($item),
         start,
         stop
       })
@@ -63,6 +71,32 @@ module.exports = {
 function parseTitle($item) {
   return $item('h3').text().trim()
 }
+function parseEP($item){
+    const text = $item('h6').text().trim()
+    const match = text.match(/Season\s+(\d+)\s*•\s*Episode\s+(\d+)/i)
+
+    if (!match) return {} // Return an empty object if no match, so properties are undefined later
+
+    const season = parseInt(match[1], 10)
+    const episode = parseInt(match[2], 10)
+
+    return { season, episode } // Return an object with season and episode
+}
+
+function parseSubtitle($item) {
+  return $item('h5').text().trim()
+}
+
+function parsePreviously($item){
+  const h3Text = $item('h3').text().trim()
+  const isNewShow = /New$/.test(h3Text)
+
+  if (isNewShow) {
+    return null
+  } else {
+    return {}
+  }
+}
 
 function parseDescription($item) {
   return $item('p').text().trim()
@@ -84,7 +118,7 @@ function parseStart($item, date) {
   let time = $item('time').text().trim()
   time = `${date.format('YYYY-MM-DD')} ${time}`
 
-  return DateTime.fromFormat(time, 'yyyy-MM-dd t', { zone: 'America/New_York' }).toUTC()
+  return dayjs.tz(time, 'YYYY-MM-DD h:mm A', 'EST').utc()
 }
 
 function parseItems(content, date) {
