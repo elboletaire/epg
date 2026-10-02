@@ -3,17 +3,23 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: update-guide
+  cancel-in-progress: false
 jobs:
   main:
+    if: github.repository == 'elboletaire/epg'
     runs-on: [self-hosted]
     steps:
-      - uses: szenius/set-timezone@v2.0
+      - uses: szenius/set-timezone@1f9716b0f7120e344f0c62bb7b1ee98819aefd42 # v2.0
         with:
           timezoneLinux: "Europe/Madrid"
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
       - name: install yarn
-        run:  npm -g install yarn
-      - uses: actions/setup-node@v4
+        run: npm -g install yarn@1.22.22
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 20
           cache: 'yarn'
@@ -24,11 +30,11 @@ jobs:
           yarn channels:lint
       - name: create guide
         run: yarn channels:local
-      - uses: actions4git/add-commit-push@v1
+      - uses: actions4git/add-commit-push@2119cc12fc9e451198b0d1c27fbae6fd1b134135 # v1.0.0
         with:
           commit-message: "chore: daily channels update"
       - name: Publish Release
-        uses: ncipollo/release-action@v1
+        uses: ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd # v1.21.0
         with:
           artifacts: "*.guide.xml,*.guide.xml.gz"
           allowUpdates: true
