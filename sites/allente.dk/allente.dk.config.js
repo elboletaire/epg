@@ -32,7 +32,7 @@ module.exports = {
                   title: event.title,
                   description: event.shortDescription,
                   category: event.genres,
-                  image: event.splashImageUri,
+                  icon: event.splashImageUri,
                   season: event.seasonNumber ? event.seasonNumber : null,
                   episode: event.episodeNumber ? event.episodeNumber : null,
                   year: event.releaseYear ? event.releaseYear.toString() : null,

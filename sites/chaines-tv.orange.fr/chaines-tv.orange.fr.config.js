@@ -4,8 +4,16 @@ const dayjs = require('dayjs')
 module.exports = {
   site: 'chaines-tv.orange.fr',
   days: 2,
+  request: {
+    headers: {
+      // the default EPGGrabber user agent gets the connection dropped by Orange
+      'User-Agent':
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    }
+  },
   url({ channel, date }) {
-    return `https://rp-ott-mediation-tv.woopic.com/api-gw/live/v3/applications/STB4PC/programs?groupBy=channel&includeEmptyChannels=false&period=${date.valueOf()},${date
+    return `https://rp-ott-mediation-tv.woopic.com/api-gw/live/v3/applications/STB4PC/programs?groupBy=channel&includeEmptyChannels=false&period=${date.startOf('d').valueOf()},${date
+      .startOf('d')
       .add(1, 'd')
       .valueOf()}&after=${channel.site_id}&limit=1`
   },
@@ -39,7 +47,7 @@ module.exports = {
         description: item.synopsis,
         season: parseSeason(item),
         episode: parseEpisode(item),
-        image: parseImage(item),
+        icon: parseImage(item),
         start: start.toJSON(),
         stop: stop.toJSON(),
         date: itemDetails?.productionDate,

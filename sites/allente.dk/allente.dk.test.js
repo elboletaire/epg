@@ -29,7 +29,7 @@ it('can parse response', () => {
     description:
       'Hvilke genstande bliver fremtidens antikviteter.',
     category: ['Livsstil', 'Antikviteter'],
-    image:
+    icon:
       'https://allente-imgmgr.akamaized.net/11823019554723227163.jpg?im=Resize,width=600,%20height=338',
     season: 19,
     episode: 6,

@@ -1,0 +1,36 @@
+{
+  "resposta": {
+    "status": "OK",
+    "items": {
+      "num": 3,
+      "item": [
+        {
+          "titol": "Notícies 3CatInfo",
+          "titol_tdt": "Notícies 3CatInfo",
+          "data_emissio": "03/10/2026 06:00:00",
+          "entradeta": "Espai informatiu.\n",
+          "url_imatge_destacat": "https://img.3cat.cat/multimedia/jpg/9/0/1758059308809_326x184.jpg"
+        },
+        {
+          "titol": "Pel·lícula",
+          "titol_tdt": "Pel·lícula - Assassinats a Chantilly",
+          "data_emissio": "03/10/2026 00:03:35",
+          "entradeta": "Una amazona apareix assassinada.",
+          "url_imatge_destacat": "https://img.3cat.cat/multimedia/jpg/6/9/1751006637696.jpg"
+        },
+        {
+          "titol": "Col·lapse",
+          "titol_tdt": "Col·lapse",
+          "data_emissio": "03/10/2026 22:05:29",
+          "entradeta": ""
+        }
+      ]
+    },
+    "paginacio": {
+      "total_items": 3,
+      "items_pagina": 250,
+      "pagina_actual": 1,
+      "total_pagines": 1
+    }
+  }
+}

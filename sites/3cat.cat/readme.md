@@ -1,6 +1,6 @@
 # 3cat.cat
 
-https://example.com
+https://www.3cat.cat/tv3/programacio/
 
 ### Download the guide
 

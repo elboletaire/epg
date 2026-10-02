@@ -1,66 +1,91 @@
-const cheerio = require('cheerio')
 const dayjs = require('dayjs')
+const utc = require('dayjs/plugin/utc')
+const timezone = require('dayjs/plugin/timezone')
 const customParseFormat = require('dayjs/plugin/customParseFormat')
+
+dayjs.extend(utc)
+dayjs.extend(timezone)
 dayjs.extend(customParseFormat)
 
+const TZ = 'Europe/Madrid'
+const DATE_FORMAT = 'DD/MM/YYYY HH:mm:ss'
+
+// site_id => canal code used by the api behind https://www.3cat.cat/tv3/programacio/canal-*/
 const channels = {
-  tv3: 'https://www.3cat.cat/Ccma/standalone/tv3_programacio_canal-tvc/graellacatchup/graella_tv3_{day}/0/0/',
-  324: 'https://www.3cat.cat/Comu/standalone/tv3_programacio_canal-324/contenidor/divgraella_324_{day}/0/0/',
-  sx3: 'https://www.3cat.cat/Comu/standalone/tv3_programacio_canal-sx3/contenidor/divgraella_cs3_{day}/0/0/',
-  c33: 'https://www.3cat.cat/Comu/standalone/tv3_programacio_canal-33/contenidor/divgraella_c33_{day}/0/0/',
-  esport3:
-    'https://www.3cat.cat/Comu/standalone/tv3_programacio_canal-esport3/contenidor/divgraella_es3_{day}/0/0/',
-  tv3cat:
-    'https://www.3cat.cat/Comu/standalone/tv3_programacio_canal-tv3cat/contenidor/divgraella_tvi_{day}/0/0/'
+  tv3: 'CAD_TV3',
+  324: 'CAD_324',
+  c33: 'CAD_C33',
+  33: 'CAD_C33',
+  sx3: 'CAD_SX3',
+  esport3: 'CAD_ES3',
+  tv3cat: 'CAD_TVI'
 }
 
 module.exports = {
   site: '3cat.cat',
   days: 2,
   url({ channel, date }) {
-    const num = getDateNumber(date)
-    return channels[channel.site_id].replace('{day}', num)
+    const canal = channels[channel.site_id]
+    if (!canal) throw new Error(`Unknown 3cat.cat channel: ${channel.site_id}`)
+
+    return `https://api.3cat.cat/v2/graellatvfutur?_format=json&canal=${canal}&data_emissio=${date.format(
+      'DD/MM/YYYY'
+    )}&pagina=1&sdom=img&version=2.0&master=yes`
   },
   parser({ content }) {
-    const $ = cheerio.load(content)
-    const programs = []
+    const items = parseItems(content)
 
-    const entries = $('ul.programes > li')
-    entries.each((i, el) => {
-      const start = dayjs($(el).attr('data-date'), 'DD/MM/YYYY HH:mm:ss')
-      const nextEl = entries[i + 1]
-      let stop
+    return items.map((item, i) => {
+      const start = dayjs.tz(item.data_emissio, DATE_FORMAT, TZ)
+      const next = items[i + 1]
+      // the api returns whole days, so the last programme runs until midnight
+      const stop = next
+        ? dayjs.tz(next.data_emissio, DATE_FORMAT, TZ)
+        : start.add(1, 'day').startOf('day')
 
-      if (nextEl) {
-        stop = dayjs($(nextEl).attr('data-date'), 'DD/MM/YYYY HH:mm:ss')
-      } else {
-        stop = start.startOf('day').add(6, 'hours')
-      }
-
-      programs.push({
-        title: $(el).find('.informacio-programa strong').text(),
-        description: $(el).find('.informacio-programa p:last-child').text(),
+      return {
+        title: item.titol || item.titol_tdt,
+        sub_title: parseSubTitle(item),
+        description: (item.entradeta || '').trim(),
+        icon: item.url_imatge_destacat,
         start,
-        stop,
-        icon: $(el).find('img').attr('src')
-      })
+        stop
+      }
     })
-    return programs
   },
   channels() {
-    return Object.keys(channels).map(site_id => ({
-      site_id,
-      name: site_id.toUpperCase(),
-      lang: 'ca'
-    }))
+    return Object.keys(channels)
+      .filter(site_id => site_id !== '33')
+      .map(site_id => ({
+        site_id,
+        name: site_id.toUpperCase(),
+        lang: 'ca'
+      }))
   }
 }
 
-function getDateNumber(date) {
-  const today = dayjs().startOf('day')
-  const targetDate = date.startOf('day')
+function parseItems(content) {
+  try {
+    const data = typeof content === 'string' ? JSON.parse(content) : content
+    const items = data?.resposta?.items?.item
+    if (!Array.isArray(items)) return []
 
-  const diffDays = targetDate.diff(today, 'day')
+    return items
+      .filter(item => item.data_emissio)
+      .sort(
+        (a, b) =>
+          dayjs.tz(a.data_emissio, DATE_FORMAT, TZ).valueOf() -
+          dayjs.tz(b.data_emissio, DATE_FORMAT, TZ).valueOf()
+      )
+  } catch {
+    return []
+  }
+}
 
-  return diffDays + 1
+// films come as `titol: "Pel·lícula"` + `titol_tdt: "Pel·lícula - Real title"`
+function parseSubTitle(item) {
+  if (!item.titol_tdt || !item.titol) return null
+  const prefix = `${item.titol} - `
+
+  return item.titol_tdt.startsWith(prefix) ? item.titol_tdt.slice(prefix.length) : null
 }

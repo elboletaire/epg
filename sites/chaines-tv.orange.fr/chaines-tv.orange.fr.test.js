@@ -33,7 +33,7 @@ it('can parse response', async () => {
       description:
         "Un tueur en série prend un plaisir pervers à prévenir les autorités de Tallahassee avant chaque nouveau meurtre. Rossi apprend le décès d'un de ses vieux amis.",
       category: 'Série Suspense',
-      image: 'https://proxymedia.woopic.com/340/p/169_EMI_9697669.jpg'
+      icon: 'https://proxymedia.woopic.com/340/p/169_EMI_9697669.jpg'
     }
   ])
 })
