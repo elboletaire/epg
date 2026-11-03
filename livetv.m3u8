@@ -22,19 +22,19 @@ https://ztnr.rtve.es/ztnr/1688885.m3u8
 https://ztnr.rtve.es/ztnr/1694255.m3u8
 #EXTINF:0,NHK World Japan
 #EXTVLCOPT:network-caching=1000
-https://tvup-fti-nhk.akamaized.net/00489ab02a9d71cc/wSAKzjrGiKX3RPFr/0d7733Vbd99f0bd8.m3u8
+https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 #EXTINF:0,Al Jazeera
 #EXTVLCOPT:network-caching=1000
 https://live-hls-apps-aje.getaj.net/AJE/index.m3u8
 #EXTINF:0,CNN International (USA)
 #EXTVLCOPT:network-caching=1000
-https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8
+https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
 #EXTINF:0,MSNBC (USA)
 #EXTVLCOPT:network-caching=1000
 https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8
 #EXTINF:0,Fox News (USA)
 #EXTVLCOPT:network-caching=1000
-https://ott.udptv.org/stream/udptvus/foxnews/master.m3u8?u=discord.gg/civ3&p=eeaf011ae6d8cdbf0200cc0234f54fdc95d7b5b158d22258efd49d7e36275c7a
+https://tvsen6.aynaott.com/foxnews/index.m3u8
 #EXTINF:0,BBC (UK)
 #EXTVLCOPT:network-caching=1000
 https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
