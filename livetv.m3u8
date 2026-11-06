@@ -38,3 +38,18 @@ https://tvsen6.aynaott.com/foxnews/index.m3u8
 #EXTINF:0,BBC (UK)
 #EXTVLCOPT:network-caching=1000
 https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
+#EXTINF:0,DW (Germany)
+#EXTVLCOPT:network-caching=1000
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:0,Bloomberg TV (USA)
+#EXTVLCOPT:network-caching=1000
+https://bloomberg.com/media-manifest/streams/us.m3u8
+#EXTINF:0,TRT World (Turkey)
+#EXTVLCOPT:network-caching=1000
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:0,CGTN (China)
+#EXTVLCOPT:network-caching=1000
+https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+#EXTINF:0,Arirang (Korea)
+#EXTVLCOPT:network-caching=1000
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8

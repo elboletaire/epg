@@ -13,4 +13,9 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="MSNBC.us" site_id="msnbc-usa/655">MSNBC (USA)</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="FoxNewsChannel.us" site_id="fox-news/1083">FOX News (USA)</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="BBCNews.uk" site_id="bbc-news-europe/33590">BBC News Europe</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="DW.de@English" site_id="dw-english/426">DW English</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="BloombergTV.us@US" site_id="bloomberg-tv-usa-hd/6790">Bloomberg TV (USA)</channel>
+  <channel site="horizon.tv" lang="en" xmltv_id="TRTWorld.tr@SD" site_id="10119">TRT World</channel>
+  <channel site="nostv.pt" lang="en" xmltv_id="CGTN.cn@SD" site_id="312">CGTN</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="ArirangTV.kr@SD" site_id="arirang-tv/10575">Arirang TV</channel>
 </channels>
