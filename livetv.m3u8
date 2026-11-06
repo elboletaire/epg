@@ -49,7 +49,7 @@ https://bloomberg.com/media-manifest/streams/us.m3u8
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:0,CGTN (China)
 #EXTVLCOPT:network-caching=1000
-https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+https://english-livebkali.cgtn.com/live/encgtn.m3u8
 #EXTINF:0,Arirang (Korea)
 #EXTVLCOPT:network-caching=1000
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
